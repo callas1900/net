@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "terminal"
 title = "callas1900.net"
 paginate = 5
+canonifyurls = true
 
 [params]
   google_analytics_id="G-EF8MECC9WY"
@@ -23,7 +24,7 @@ paginate = 5
   # favicon = "favicon.ico"
 
 [permalinks]
-  posts = "/posts/:year/:month/:day/:slug/"
+  posts = "/posts/:year/:month/:slug/"
 
 [languages]
   [languages.en]
