@@ -42,19 +42,19 @@ pre.language-diff code.language-diff {
     padding-right: 0;
   }
 
-  p:first-of-type {
+  > blockquote:first-of-type {
     margin-top: 0;
   }
 
-  p:last-of-type {
+  > blockquote:last-of-type {
     margin-bottom: 0;
   }
 
-  p {
+  > blockquote {
     position: relative;
   }
 
-  p:before {
+  > blockquote:before {
     content: '>';
     display: block;
     position: absolute;
