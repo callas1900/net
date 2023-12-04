@@ -22,3 +22,65 @@
 pre.language-diff code.language-diff {
     white-space: pre-wrap;
 }
+
+.quoteblock {
+  > blockquote {
+    border-bottom: 0px solid var(--accent);
+    border-top: 0px solid var(--accent);
+    margin: 0;
+    padding: 0;
+  }
+  > .attribution {
+      margin-top:20px;
+  }
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  margin: 40px 0;
+  padding: 25px;
+
+  @media (--phone) {
+    padding-right: 0;
+  }
+
+  p:first-of-type {
+    margin-top: 0;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  p {
+    position: relative;
+  }
+
+  p:before {
+    content: '>';
+    display: block;
+    position: absolute;
+    left: -25px;
+    color: var(--accent);
+  }
+}
+
+.admonitionblock {
+  margin: var(--verticalRhythm) 0;
+  > table {
+    border: none;
+    > tbody tr td.icon {
+      background: var(--accent);
+      border: var(--primaryBorder) var(--accent);
+      color: var(--background);
+      text-align: center;
+      width: 20%;
+      vertical-align: middle;
+    }
+  }
+}
+
+table.stripes-even tr:nth-child(even) {
+  background: rgb(21, 24, 32);
+}
+table.stripes-odd tr:nth-child(odd) {
+  background: rgb(21, 24, 32);
+}
