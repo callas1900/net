@@ -1,16 +1,20 @@
 +++
-title="即興演劇の知恵で加速するDDP"
+title="インプロの知恵で加速するDDP"
 slug="ddp_with_impro"
 date="2023-12-17"
 author=""
 cover=""
-tags=["coach"]
+tags=["ORSC", "coach"]
 keywords=["agile coach","system coach", "ICF"]
-description=""
+description="筆者はORSCCとインプロファシリテーターの二足のわらじを履いています。その観点からちょっと踏み込んだ内容を書いてみようと思いました。"
 showFullContent=false
 draft=true
 +++
 
+//状況：DDPは一番使われていないワーク。実際に難しい
+//複雑化：演じること、ゴーストを場に出していくことの２つのエッジが混ざっているからエッジが複数あるように見える。どうやって関係性の変化のエッジに気づけるのか？
+//疑問：インプロの知恵はDDPに役に立つのか？
+//答え:１７のテクニックで演じることのエッジの捉え方に彩りをを捉えていく
 :sectnums:
 
 筆者はORSCCとインプロファシリテーターの二足のわらじを履いています。
