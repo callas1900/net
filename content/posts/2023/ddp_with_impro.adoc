@@ -9,9 +9,12 @@ keywords=["system coach", "インプロ", "ディープデモクラシープロ�
 description="システムコーチング Advent Calendar 2023に登録したので、ORSCに関する内容を書きます。筆者はORSCCとインプロファシリテーターの二足のわらじを履いています。その観点からちょっとディープデモクラシープロセス（以下DDP）に関して、考えている内容を書いてみます。"
 showFullContent=false
 draft=false
+toc=true
 +++
 
 :sectnums:
+:toc:
+:toclevels: 1
 
 https://adventar.org/calendars/8711[システムコーチング Advent Calendar 2023]に登録したので、ORSCに関する内容を書きます。
 
