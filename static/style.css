@@ -84,3 +84,17 @@ table.stripes-even tr:nth-child(even) {
 table.stripes-odd tr:nth-child(odd) {
   background: rgb(21, 24, 32);
 }
+
+nav#TableOfContents {
+    ul {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    a {
+        text-decoration: none;
+        color: var(--accent);
+    }
+    display: block;
+    margin: 50px;
+
+}

@@ -28,6 +28,9 @@
   {{ end }}
 
   <div class="post-content">
+    {{- with .Page.Params.toc -}}
+      {{- $.TableOfContents -}}
+    {{- end -}}
     {{ .Content }}
   </div>
   {{ if or .NextInSection .PrevInSection }}
