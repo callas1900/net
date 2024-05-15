@@ -1,6 +1,6 @@
 <html>
 <body style="background-color:black">
-<input id="file" type="file"></input>
+<input id="file" type="file" accept="audio/*"></input>
 <audio controls id="source"></audio>
 <canvas id="audio_visual" height="1000" width="1600"></canvas>
 
@@ -42,7 +42,8 @@
     let audioElement = document.getElementById("source");
     document.getElementById("file").addEventListener("change", (e) => {
         if (e.target.files[0]) {
-            audioElement.src = e.target.files[0].name
+            // audioElement.src = e.target.files[0].name
+            audioElement.src = URL.createObjectURL(e.target.files[0]);
         }
     })
     audioElement.volume = 0.1;
