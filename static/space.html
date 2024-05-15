@@ -14,7 +14,8 @@
         if (count > 1500 || count <= 0) {
             cdirect = !cdirect
         }
-        data.forEach((value,i)=>{
+        for (let i=0; i<data.length; i++){
+            let value = data[i]
             ctx.fillStyle = "white"
             ctx.shadowColor = "rgb(255, 250, 250)"
             ctx.shadowBlur = 35
@@ -30,7 +31,7 @@
             ctx.arc(x, y-value*value/100, 0.1+(value)/(30+count/100), 0, Math.PI*360)
             ctx.fillStyle = "rgb( " + eval(50+value/2) + "," + eval(100+value/2) + "," + eval(100+value/2) + ")"
             ctx.fill()
-        })
+        }
     }
     function loopingFunction() {
         requestAnimationFrame(loopingFunction);
@@ -42,7 +43,6 @@
     let audioElement = document.getElementById("source");
     document.getElementById("file").addEventListener("change", (e) => {
         if (e.target.files[0]) {
-            // audioElement.src = e.target.files[0].name
             audioElement.src = URL.createObjectURL(e.target.files[0]);
         }
     })
