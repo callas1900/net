@@ -16,8 +16,8 @@
         }
         for (let i=0; i<data.length; i++){
             const value = data[i]
-            ctx.shadowColor = "rgb(245, 230, 230)"
-            ctx.shadowBlur = 25
+            ctx.shadowColor = "rgb(238,232,170)"
+            ctx.shadowBlur = 15
             ctx.beginPath()
             let x = 0
             let y = 0
@@ -27,7 +27,7 @@
             x = Math.cos(angle)*radious+canvas.width/2
             y = Math.sin(angle)/(2 - count/100)*radious+canvas.height/2
             ctx.arc(x, y-value*value/150, 0.2+(value)/(30+count/100), 0, 2*Math.PI)
-            ctx.fillStyle = "rgb( 50," + eval(255-value/3) + "," + eval(255-value) + ")"
+            ctx.fillStyle = "rgb( 50," + eval(255-value/3) + "," + eval(255-value/1.5) + ")"
             ctx.fill()
         }
     }
