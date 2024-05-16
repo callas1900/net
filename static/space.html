@@ -5,7 +5,7 @@
 <canvas id="audio_visual" height="1000" width="1600"></canvas>
 
 <script>
-    let count = 750
+    let count = 550
     let cdirect = true
     function draw(data) {
         data = [...data];
@@ -15,21 +15,19 @@
             cdirect = !cdirect
         }
         for (let i=0; i<data.length; i++){
-            let value = data[i]
-            ctx.fillStyle = "white"
-            ctx.shadowColor = "rgb(255, 250, 250)"
-            ctx.shadowBlur = 35
+            const value = data[i]
+            ctx.shadowColor = "rgb(245, 230, 230)"
+            ctx.shadowBlur = 25
             ctx.beginPath()
-            let space = 20
             let x = 0
             let y = 0
-            radious = 200 + count/5
-
-            let d = (i%2==0) ? -1 : 1
-            x = Math.cos(Math.PI/(500)*d*(i+d*count))*radious+canvas.width/2
-            y = Math.sin(Math.PI/(500)*d*(i+d*count))/(2 - count/100)*radious+canvas.height/2
-            ctx.arc(x, y-value*value/100, 0.1+(value)/(30+count/100), 0, Math.PI*360)
-            ctx.fillStyle = "rgb( " + eval(50+value/2) + "," + eval(100+value/2) + "," + eval(100+value/2) + ")"
+            const radious = 300 + count/10
+            const d = (i%2==0) ? -1 : 1
+            const angle = Math.PI/(data.length/2)*d*(i-d*count)
+            x = Math.cos(angle)*radious+canvas.width/2
+            y = Math.sin(angle)/(2 - count/100)*radious+canvas.height/2
+            ctx.arc(x, y-value*value/150, 0.2+(value)/(30+count/100), 0, 2*Math.PI)
+            ctx.fillStyle = "rgb( 50," + eval(255-value/3) + "," + eval(255-value) + ")"
             ctx.fill()
         }
     }
