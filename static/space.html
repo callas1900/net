@@ -2,6 +2,7 @@
 <body style="background-color:black">
 <input id="file" type="file" accept="audio/*"></input>
 <audio controls id="source"></audio>
+<input type="range" min="0" max="100" value="10" oninput="changeDelay(value)">
 <canvas id="audio_visual" height="1000" width="1600"></canvas>
 
 <script>
@@ -48,15 +49,21 @@
     let audioCtx = new AudioContext();
     let analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
+    let delay = audioCtx.createDelay();
+    delay.delayTime.setValueAtTime(.1, audioCtx.currentTime);
 
     let source = audioCtx.createMediaElementSource(audioElement);
+    source.connect(delay);
+    delay.connect(audioCtx.destination)
     source.connect(analyser);
-    source.connect(audioCtx.destination);
     let data = new Uint8Array(analyser.frequencyBinCount);
     requestAnimationFrame(loopingFunction);
     analyser.getByteFrequencyData(data); //passing our Uint data array
 
     audioElement.onplay = () => { audioCtx.resume(); }
+    const changeDelay = (v) => {
+        delay.delayTime.setValueAtTime(v / 100, audioCtx.currentTime);
+    }
 </script>
 </body>
 </html>
