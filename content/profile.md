@@ -6,19 +6,25 @@ draft: false
 
 {{< raw >}}
 <style>
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .circle-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    object-fit: cover;
   }
 </style>
+<dev class="image-container">
 <img src="/profile_nob.jpg" class="circle-image">
+</dev>
 {{< /raw >}}
 
-{{< linkcard "https://x.com/callas1900" "twitter.com">}}
-{{< linkcard "https://www.facebook.com/ryo.tanaka.5661" "facebook">}}
-{{< linkcard "https://bsky.app/profile/callas1900.bsky.social" "bsky">}}
+{{< linkcard "https://x.com/callas1900" "Twitter, X">}}
+{{< linkcard "https://www.facebook.com/ryo.tanaka.5661" "Facebook">}}
+{{< linkcard "https://bsky.app/profile/callas1900.bsky.social" "Bluesky">}}
 
 # Dev
 

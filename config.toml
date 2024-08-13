@@ -52,7 +52,7 @@ canonifyurls = true
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "profile"
-        name = "profile"
+        name = "Profile"
         url = "/profile"
       [[languages.en.menu.main]]
         identifier = "quotes"
