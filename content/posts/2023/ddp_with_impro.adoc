@@ -75,7 +75,7 @@ DDPの中で新たなゴーストが現れたり、誰も考えたことが無�
 以下に整理して置いておきます。
 例の内容はインプロアカデミーから頂きました。
 
-include::content/posts/2023/methods_to_kill_stories.adoc[tag=main-table]
+include::methods_to_kill_stories.adoc[tag=main-table]
 
 如何でしょうか？字面だけでは捉えきれないものもあるかもしれません。
 興味を持ってもっと深く知りたい人は、インプロを通じて体得するようなトレーニングに参加することをお勧めします。

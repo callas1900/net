@@ -73,3 +73,14 @@ getenv = ["^HUGO_"]
 [security.http]
 methods = ["(?i)GET|POST"]
 urls = [".*"]
+
+[markup]
+  [markup.asciidocExt]
+    enabled = true
+    backend = "html5"
+    trace = true
+    verbose = true
+    workingFolderCurrent = true
+    [markup.asciidocExt.attributes]
+      experimental = true
+      icons = "font"
