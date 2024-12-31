@@ -8,7 +8,7 @@ tags=["trip", "laos", "ラオス", "ラオ語"]
 keywords=["ORSC", "旅行"]
 description="ラオスにまた旅行行くことがあれば、ラオ語を使う機会もあるかもしれないので、メモを残しておく。"
 showFullContent=false
-draft=true
+draft=false
 +++
 
 ラオスにまた旅行行くことがある時用にラオ語のメモ。
