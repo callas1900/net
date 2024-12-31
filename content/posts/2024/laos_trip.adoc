@@ -1,12 +1,11 @@
 +++
 title="Laos Trip"
 slug="laos trip"
-date="2024-1-3"
+date="2024-01-03"
 author=""
 cover=""
 tags=["trip", "ORSC", "システムコーチング"]
 keywords=["ORSC","システムコーチング", "旅行"]
-
 description=""
 showFullContent=false
 draft=true
