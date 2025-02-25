@@ -62,5 +62,8 @@
   {{ end }}
 
   {{ partial "comments.html" . }}
+  {{ block "tags" . }}
+    {{ partial "tag.terms.html" . }}
+  {{ end }}
 </div>
 {{ end }}
