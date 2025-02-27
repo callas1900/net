@@ -1,5 +1,6 @@
 +++
 title = "「エンジニアのためのデザイン思考入門」を読んだまとめ"
+slug = "design_thinking_for_eng"
 date = "2020-03-17"
 author = ""
 cover = ""
@@ -7,7 +8,6 @@ tags = ["読書ノート", "デザイン思考"]
 description = "「エンジニアのためのデザイン思考入門」を読んだまとめを、本の内容を一部引用しながら自分のためにまとめます"
 showFullContent = false
 draft = false
-
 +++
 
 以下の本の内容を一部引用して個人用にまとめます。
@@ -133,7 +133,7 @@ as an origin of Design Innovation Paradigm
 
 ### 多様性と共感の広がり
 
-{{< figure src="../design_thinking_divercity_and_emphasise_plain.svg" style="background:#fff" title="Steve Francia" >}}
+{{< figure src="design_thinking_divercity_and_emphasise_plain.svg" style="background:#fff" title="Steve Francia" >}}
 
 個人からチームさらに利害関係者、それらの共感を合わせてもユーザーニーズとは完全一致しないが、それでもどんどん漸近している様子がわかる。
 
