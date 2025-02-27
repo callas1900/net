@@ -85,6 +85,17 @@ table.stripes-odd tr:nth-child(odd) {
   background: rgb(21, 24, 32);
 }
 
+th {
+    background-color: rgb(40,40,40);
+}
+
+.halign-center {
+      text-align: center;
+}
+.halign-right {
+      text-align: right;
+}
+
 nav#TableOfContents {
     ul {
         margin-top: 5px;
