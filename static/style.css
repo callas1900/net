@@ -96,5 +96,14 @@ nav#TableOfContents {
     }
     display: block;
     margin: 50px;
+}
 
+a.btn {
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+a.btn:hover {
+    text-decoration: underline;
 }
