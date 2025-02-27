@@ -3,8 +3,8 @@ title="インプロファシリテーション講座の受講メモ"
 slug="impro_facilitation_class"
 date="2025-02-23"
 author=""
-cover=""
-tags=["impro", "facilitation"]
+cover="posts/2025/02/impro_facilitation_class/creative_process.png"
+tags=["impro", "facilitation", "creative process"]
 description="インプロファシリテーション講座を受けてのまとめ"
 showFullContent=false
 draft=false
@@ -16,10 +16,6 @@ draft=false
 考え方の根本にあるのはロバート・フリッツの創造プロセス
 
 == 創造プロセス
-[,goat]
-----
-[Reality] --(Action)--> [Vision]
-----
 
 使う考え方は凄くシンプルで、Realityを観察し、Visionを描き、Actionを決定する。
 

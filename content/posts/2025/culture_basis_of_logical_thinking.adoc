@@ -7,7 +7,7 @@ cover=""
 tags=["読書ノート"]
 description="読書ノート: 「論理的思考」の文化的基盤"
 showFullContent=false
-draft=false
+draft=true
 +++
 .合理性と合理的行為の四類型
 [%header, cols="4,4,2,2,2"]
