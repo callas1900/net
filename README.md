@@ -1,7 +1,7 @@
 # How to run
 
 ```bash
-hugo server -D
+hugo serve --poll 500ms
 ```
 
 # How to post new an article
