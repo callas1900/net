@@ -3,7 +3,7 @@ backend:
   repo: callas1900/net
   branch: main
   base_url: https://api.netlify.com
-  site_id: reliable-khapse-4a5dd4.netlify.app
+  site_id: callas1900.netlify.app
   auth:
     client_id: Ov23lidoN9vNJEdFYneQ
 
