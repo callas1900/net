@@ -2,6 +2,10 @@ backend:
   name: github
   repo: callas1900/net
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth/done
+  auth:
+    client_id: Ov23lidoN9vNJEdFYneQ
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
