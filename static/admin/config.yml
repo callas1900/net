@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: callas1900/net
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
