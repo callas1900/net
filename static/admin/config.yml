@@ -2,7 +2,7 @@ backend:
   name: github
   repo: callas1900/net
   branch: main
-  base_url: https://api.netlify.com
+  base_url: https://sveltia-cms-auth.callas1900-76e.workers.dev
   auth:
     client_id: Ov23lidoN9vNJEdFYneQ
 
