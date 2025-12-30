@@ -9,4 +9,7 @@ hugo serve --poll 500ms
 hugo new posts/20191224.md
 ```
 
-
+# CMS
+* [Sveltia CMS](https://github.com/sveltia/sveltia-cms)
+* [Sveltia CMS Auth](https://github.com/sveltia/sveltia-cms-auth)
+* Cloudflare workers
