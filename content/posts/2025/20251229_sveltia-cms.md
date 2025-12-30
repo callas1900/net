@@ -30,4 +30,58 @@ sveltia CMSの仕組みはシンプルで、 index.html と config.yml でのみ
 4. Github::Developers SettingからAuth Appを設定し、IDとSECRETを入手
 5. cloudflare worksに戻り、IDとSECRETを設定
 
-以上になります。
+参考までに以下に私の設定したconfig.ymlを置いておきます。  
+使用する場合は適時値を変更してご使用下さい。
+
+
+```yml
+backend:
+  name: github
+  repo: yourgithub/site
+  branch: main
+  base_url: https://sveltia-cms-auth.yourdomain.workers.dev
+  auth:
+    client_id: Xx00XxxxX0xXXXxXXxxX
+
+media_folder: "static/posts"
+public_folder: "/posts"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    path: "{{year}}/{{year}}{{month}}{{day}}_{{fields.slug}}"
+    create: true
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        required: true
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: true
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+```
