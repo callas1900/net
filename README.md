@@ -1,4 +1,9 @@
-# How to run
+# For Developer
+## How to set up
+1. install hugo 
+2. install asciidoctor
+
+## How to run
 
 ```bash
 hugo serve --poll 500ms
