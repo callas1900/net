@@ -5,6 +5,7 @@ title = "callas1900.net"
 pagination.pagerSize = 5
 canonifyurls = true
 ignoreLogs = ['warning-goldmark-raw-html']
+timeZone = "Asia/Tokyo"
 
 [params]
   google_analytics_id="G-EF8MECC9WY"
@@ -33,7 +34,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
       title = "callas1900.net"
       subtitle = "A simple page of mine"
       keywords = ""
-      copyright = "Copyright 2005-2024 callas1900.net All rights reserved."
+      copyright = "Copyright 2005-2026 callas1900.net All rights reserved."
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
