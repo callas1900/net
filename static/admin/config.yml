@@ -32,6 +32,8 @@ collections:
         name: "cover"
         widget: "image"
         required: false
+        media_folder: "/static/img"
+        public_folder: "/img"
       - label: "Tags"
         name: "tags"
         widget: "list"
