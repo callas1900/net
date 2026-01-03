@@ -2,7 +2,7 @@
 title: 課題解決とゴール設定
 slug: goal_setting_pattern
 date: 2026-01-02T22:51:00
-cover: goal_setting.png
+cover: /img/goal_setting.png
 tags:
   - goal
   - ゴール
