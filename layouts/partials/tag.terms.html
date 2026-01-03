@@ -1,0 +1,44 @@
+<div id="theme-tagcloud" class="col-sm-12" style="margin-bottom: 15px;">
+{{ $currentYear := now.Year }}
+{{ $cutoffYear := sub $currentYear 10 }}
+
+{{/* Collect all tags from pages in the last 3 years */}}
+{{ $recentTags := slice }}
+{{ range .Site.RegularPages }}
+  {{ if .Date }}
+    {{ if ge .Date.Year $cutoffYear }}
+      {{ range .Params.tags }}
+        {{ $recentTags = $recentTags | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Count tag occurrences */}}
+{{ $.Scratch.Set "tagCounts" dict }}
+{{ range $recentTags }}
+  {{ $tag := . }}
+  {{ $currentCount := index ($.Scratch.Get "tagCounts") $tag | default 0 }}
+  {{ $.Scratch.SetInMap "tagCounts" $tag (add $currentCount 1) }}
+{{ end }}
+
+{{/* Convert to sortable slice and filter */}}
+{{ $tagList := slice }}
+{{ range $tag, $count := $.Scratch.Get "tagCounts" }}
+  {{ if not (in (slice "hugo" "tags" "rss") $tag) }}
+    {{ if ge $count 1 }}
+      {{ $tagList = $tagList | append (dict "Term" $tag "Count" $count) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Sort by count descending */}}
+{{ range sort $tagList "Count" "desc" }}
+  {{ $tagURL := printf "tags/%s" .Term | relURL }}
+  <a href="{{ $tagURL }}" class="btn btn-default" role="button">{{ .Term }}
+    {{ if gt .Count 1 }}
+    <span class="badge">({{ .Count }})</span>
+    {{ end }}
+  </a>
+{{ end }}
+</div>

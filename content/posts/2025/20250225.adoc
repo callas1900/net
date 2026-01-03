@@ -1,10 +1,10 @@
 +++
-title="インプロファシリテーション講座の受講メモ"
+title="創造プロセス - インプロファシリテーション講座の受講メモ"
 slug="impro_facilitation_class"
 date="2025-02-23"
 author=""
 cover="posts/2025/02/impro_facilitation_class/creative_process.png"
-tags=["impro", "facilitation", "creative process"]
+tags=["impro", "facilitation", "creative-process", '創造プロセス']
 description="インプロファシリテーション講座を受けてのまとめ"
 showFullContent=false
 draft=false

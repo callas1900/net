@@ -5,7 +5,7 @@ date: 2025-12-29T12:55:00
 cover: /img/pexels-tolga-deniz-aran-35431759.jpg
 tags:
   - hugo
-  - sveltia cms
+  - sveltia-cms
 description: hugo + github pages の本サイト に sveltia cms の導入をした話
 draft: false
 ---
