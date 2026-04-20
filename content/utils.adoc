@@ -1,0 +1,7 @@
+== Utils
+
+自分が使うためのもの
+
+黒い画面 (black screen):: link:../black_screen.html[黒い画面]　クリックで全画面表示（画面掃除用）
+白い画面 (white screen):: link:../white_screen.html[白い画面]　クリックで全画面表示（リモート会議用）
+音楽で動く画面:: link:../space.html[音楽で動く画面]

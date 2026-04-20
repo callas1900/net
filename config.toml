@@ -57,6 +57,10 @@ timeZone = "Asia/Tokyo"
         name = "Profile"
         url = "/profile"
       [[languages.en.menu.main]]
+        identifier = "utils"
+        name = "Utils"
+        url = "/utils"
+      [[languages.en.menu.main]]
         identifier = "quotes"
         name = "Quotes"
         url = "/quotes"

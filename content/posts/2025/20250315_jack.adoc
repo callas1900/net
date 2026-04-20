@@ -1,6 +1,6 @@
 +++
 title = "Jack Out the Boxでプレイバックシアターを体験"
-slug = ""
+slug = "jack-out-the-box"
 date = 2025-03-18
 author = ""
 cover = ""
