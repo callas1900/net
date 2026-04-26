@@ -1,0 +1,50 @@
+version: 1
+rules:
+  # カタカナ末尾長音符号の統一（JIS式 → 一般式）
+  - expected: サーバー
+    patterns:
+      - /サーバ(?!ー)/
+  - expected: ユーザー
+    patterns:
+      - /ユーザ(?!ー)/
+  - expected: コンピューター
+    patterns:
+      - /コンピュータ(?!ー)/
+  - expected: ブラウザー
+    patterns:
+      - /ブラウザ(?!ー)/
+  - expected: フォルダー
+    patterns:
+      - /フォルダ(?!ー)/
+  - expected: メンバー
+    patterns:
+      - /メンバ(?!ー)/
+  - expected: プリンター
+    patterns:
+      - /プリンタ(?!ー)/
+  - expected: ルーター
+    patterns:
+      - /ルータ(?!ー)/
+  - expected: アダプター
+    patterns:
+      - /アダプタ(?!ー)/
+  - expected: コネクター
+    patterns:
+      - /コネクタ(?!ー)/
+
+  # AI 定型句・過剰丁寧語
+  - expected: します
+    patterns:
+      - /させていただきます/
+  - expected: ～です
+    patterns:
+      - /となっております/
+  - expected: いかがですか
+    patterns:
+      - /いかがでしょうか/
+  - expected: まとめ
+    patterns:
+      - /まとめると/
+  - expected: 結論として
+    patterns:
+      - /結論から言うと/

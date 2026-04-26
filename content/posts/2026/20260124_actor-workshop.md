@@ -12,7 +12,7 @@ draft: true
 ---
 
 宿題の発表
-演技指導（visualization)
+演技指導(visualization)
 障害のメソッド
 自分の最奥
 独白

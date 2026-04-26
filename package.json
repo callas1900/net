@@ -1,0 +1,27 @@
+{
+  "name": "net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:2026": "textlint content/posts/2026/*.md content/posts/2026/*.adoc",
+    "lint:all": "textlint content/**/*.md content/**/*.adoc",
+    "lint:fix": "textlint --fix content/**/*.md content/**/*.adoc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "textlint": "^15.5.4",
+    "textlint-plugin-asciidoctor": "^1.1.0",
+    "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.1",
+    "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-prh": "^6.1.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
