@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      sentence-splitter:
+        specifier: ^5.0.1
+        version: 5.0.1
       textlint:
         specifier: ^15.5.4
         version: 15.5.4

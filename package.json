@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint:2026": "textlint content/posts/2026/*.md content/posts/2026/*.adoc",
-    "lint:all": "textlint content/**/*.md content/**/*.adoc",
-    "lint:fix": "textlint --fix content/**/*.md content/**/*.adoc"
+    "lint:2026": "textlint --rulesdir ./.textlint-rules content/posts/2026/*.md content/posts/2026/*.adoc",
+    "lint:all": "textlint --rulesdir ./.textlint-rules content/**/*.md content/**/*.adoc",
+    "lint:fix": "textlint --fix --rulesdir ./.textlint-rules content/**/*.md content/**/*.adoc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.7.0",
+  "type": "module",
   "devDependencies": {
+    "sentence-splitter": "^5.0.1",
     "textlint": "^15.5.4",
     "textlint-plugin-asciidoctor": "^1.1.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",

@@ -4,7 +4,7 @@
   },
   "rules": {
     "preset-ja-technical-writing": {
-      "no-mix-dearu-desumasu": false,
+      "no-mix-dearu-desumasu": true,
       "ja-no-weak-phrase": false,
       "sentence-length": false,
       "max-ten": false,
@@ -16,19 +16,22 @@
       "no-exclamation-question-mark": false,
       "arabic-kanji-numbers": false,
       "ja-no-mixed-period": false,
-      "ja-no-successive-word": false
+      "ja-no-successive-word": false,
+      "ja-unnatural-alphabet": false,
     },
     "preset-ja-spacing": {
-      "ja-space-between-half-and-full-width": { "space": "never" },
+      "ja-space-between-half-and-full-width": {
+          "space": ["alphabets"],
+          "allows": ["DB接続"]
+      },
       "ja-space-after-exclamation": false,
       "ja-space-after-question": false,
       "ja-no-space-around-parentheses": false,
       "ja-no-space-between-full-width": false
     },
-    "spellcheck-tech-word": true,
     "ja-hiragana-hojodoushi": true,
     "ja-no-redundant-expression": true,
-    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": false,
     "prh": {
       "rulePaths": ["./prh/style.yml"]
     }

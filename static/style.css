@@ -1,14 +1,48 @@
+:root {
+    --accent_y: #FEC601;
+    --accent_b: rgb(0,161,228); // #00A1E4;
+    --accent_p: #DC0073;
+}
+mark {
+    background: linear-gradient(transparent 60%, rgba(0,161,228,0.6) 60%);
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
+    color: inherit;
+}
+strong {
+    color: var(--accent);
+}
+.underline {
+    text-decoration: underline solid var(--accent);
+}
 .post-content h1 {
+    color: var(--accent);
+    font-size: 1.7em;
+}
+
+.post-content h2 {
     border-style: none none dotted solid;
     border-color: var(--accent);
     border-left-width: 5px;
     border-bottom-width: 3px;
     padding-left: 10px;
+    font-size: 1.5em;
 }
-.post-content h2 {
+.post-content h3 {
     --border: 5px solid var(--accent);
     border-left: var(--border);
     padding-left: 10px;
+    font-size: 1.4em;
+}
+.post-content h4 {
+    --border: 1px solid var(--accent);
+    border-left: var(--border);
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.post-content h5 {
+    font-size: 1.1em;
+    color: var(--accent);
 }
 
 .token.deleted {
@@ -68,6 +102,18 @@ pre.language-diff code.language-diff {
   }
 }
 
+.fa.icon-tip::before {
+    font-family: "FontAwesome";
+    content: "\f0a4";
+    font-style: normal;
+}
+.fa.icon-note::before {
+    font-family: "FontAwesome";
+    content: "\f044";
+    font-style: normal;
+}
+
+
 .admonitionblock {
   margin: var(--verticalRhythm) 0;
   > table {
@@ -77,8 +123,25 @@ pre.language-diff code.language-diff {
       border: var(--primaryBorder) var(--accent);
       color: var(--background);
       text-align: center;
-      width: 20%;
-      vertical-align: middle;
+      width: 6%;
+      vertical-align: top;
+      padding-top:20px;
+    }
+    td.content {
+        flex-direction: column;
+        .title {
+            border-bottom: 2px dotted var(--accent);
+            text-align: center;
+        }
+    }
+  }
+}
+.admonitionblock.note {
+  > table {
+    > tbody tr td.icon {
+      background: var(--background);
+      color: var(--accent);
+      padding-top:0px;
     }
   }
 }
