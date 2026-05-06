@@ -30,7 +30,7 @@ Howie は "How We Got Here"(どうやってここに至ったか)の略で、イ
 本会議::
 +
 [start=6]
-6. Meet: Learning Review の実施
+. Meet: Learning Review の実施
 
 会議後::  
 +
