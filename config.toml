@@ -80,6 +80,11 @@ methods = ["(?i)GET|POST"]
 urls = [".*"]
 
 [markup]
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block  = [['$$', '$$']]
+    inline = [['\(', '\)']]
   [markup.asciidocExt]
     enabled = true
     backend = "html5"

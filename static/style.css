@@ -1,10 +1,13 @@
+@import url("https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex.min.css");
+
 :root {
     --accent_y: #FEC601;
-    --accent_b: rgb(0,161,228); // #00A1E4;
+    --accent_b: #00A1E4;
     --accent_p: #DC0073;
+    --background_origin: #1D1E28;
 }
 mark {
-    background: linear-gradient(transparent 60%, rgba(0,161,228,0.6) 60%);
+    background: linear-gradient(transparent 60%, color-mix(in srgb, var(--accent_b), var(--background_origin) 50%)  60%);
     padding: 0.1em 0.2em;
     border-radius: 2px;
     color: inherit;
@@ -57,7 +60,13 @@ pre.language-diff code.language-diff {
     white-space: pre-wrap;
 }
 
+blockquote {
+    background-color: color-mix(in srgb, white, var(--background) 97%);
+
+}
+
 .quoteblock {
+    background-color: color-mix(in srgb, white, var(--background) 97%);
   > blockquote {
     border-bottom: 0px solid var(--accent);
     border-top: 0px solid var(--accent);
