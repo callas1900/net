@@ -6,13 +6,16 @@
     --accent_p: #DC0073;
     --background_origin: #1D1E28;
 }
-mark {
+.post-content a {
+    color: var(--accent_b);
+}
+.post-content mark {
     background: linear-gradient(transparent 60%, color-mix(in srgb, var(--accent_b), var(--background_origin) 50%)  60%);
     padding: 0.1em 0.2em;
     border-radius: 2px;
     color: inherit;
 }
-strong {
+.post-content strong {
     color: var(--accent);
 }
 .underline {
