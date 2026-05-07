@@ -22,9 +22,32 @@ draft: false
 </dev>
 {{< /raw >}}
 
+{{< raw >}}
+
 {{< linkcard "https://x.com/callas1900" "Twitter, X">}}
 {{< linkcard "https://www.facebook.com/ryo.tanaka.5661" "Facebook">}}
 {{< linkcard "https://bsky.app/profile/callas1900.bsky.social" "Bluesky">}}
+
+<div style="margin-top:30px; display:grid; grid-template-columns:380px 200px;">
+    <div>
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/5kwqA96ynzfXcbM85Gi4UC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <div style="margin-left:15px; display:flex; flex-direction: column; justify-content: flex-end;">
+        <div style="margin-bottom:10px;">
+            <a href="https://podcasts.apple.com/us/podcast/s56fm-%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%81%AE%E8%A6%96%E7%82%B9%E3%81%A7%E4%B8%96%E7%95%8C%E3%82%92%E8%A6%8B%E3%82%8B%E9%9B%91%E8%AB%87/id1887100932">
+                <img src="https://toolbox.marketingtools.apple.com/api/assets/featured-content/podcasts/badges/badge-2-glass/en-us.svg" style="height:45px">
+            </a>
+        </div>
+        <div style="margin-bottom:5px;">
+            <a href="https://music.amazon.co.jp/podcasts/6c891436-352a-4a39-9090-856a18375ace/s56fm-コーチングの視点で世界を見る雑談">
+                <img src="/img/JP_JP_ListenOn_AmazonMusic_Button_White.png" style="height:45px">
+            </a>
+        </div>
+    </div>
+</div>
+{{< /raw >}}
+
+
 
 # Dev
 
