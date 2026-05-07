@@ -1,0 +1,92 @@
+﻿lemma,pos_pattern,locations,count
+action item,NOUN NOUN,Home(L24); Calibrate(L396); Continued Learning(L597),20
+calibration document,NOUN NOUN,Home(L24); Analyze(L120); Calibrate(L311); Continued Learning(L572),16
+incident analysis,NOUN NOUN,Home(L24); Analyze(L110); Calibrate(L469); Distribute(L520); Closing Thoughts(L531); Continued Learning(L562),16
+review meeting,NOUN NOUN,Home(L24); Analyze(L143); Calibrate(L316),14
+incident review,NOUN NOUN,Assign(L85); Analyze(L189); Interview(L198); Calibrate(L316); Distribute(L522); Continued Learning(L560),12
+how we got here,固定表現,Home(L8); Calibrate(L341); Continued Learning(L645),9
+initial analysis,ADJ NOUN,Home(L51); Assign(L69); Analyze(L112); Interview(L207); Continued Learning(L591),8
+incident data,NOUN NOUN,Home(L24); Assign(L99); Analyze(L109); Distribute(L511),6
+incident investigation,NOUN NOUN,Home(L28); Assign(L91),6
+investigation process,NOUN NOUN,Home(L28); Assign(L65); Continued Learning(L576),6
+point of view,NOUN ADP NOUN,Analyze(L164); Interview(L284); Calibrate(L332),6
+new information,ADJ NOUN,Analyze(L187); Interview(L205); Calibrate(L495),6
+learning review,NOUN NOUN,Interview(L257); Calibrate(L320); Distribute(L506),6
+on call,固定表現,Assign(L100); Analyze(L114); Interview(L211),5
+post-incident review,NOUN NOUN,Assign(L105); Analyze(L126); Distribute(L527); Continued Learning(L572),5
+learning from incident,固定表現,Home(L10); Continued Learning(L581),4
+incident report,NOUN NOUN,Home(L24); Calibrate(L311); Distribute(L524),4
+postmortem meeting,NOUN NOUN,Continued Learning(L636),4
+resilience engineering,PROPN PROPN,Home(L15); Continued Learning(L551),3
+performance improvement,PROPN PROPN,Home(L20); Continued Learning(L577),3
+learning review meeting,VERB NOUN NOUN,Home(L24); Analyze(L143); Calibrate(L341),3
+facilitated meeting,ADJ NOUN,Home(L59); Calibrate(L316),3
+key moment,ADJ NOUN,Analyze(L130); Calibrate(L336),3
+initial review,ADJ NOUN,Analyze(L167); Calibrate(L324),3
+subject matter expert,ADJ NOUN NOUN,Analyze(L176); Calibrate(L424),3
+incident response,NOUN NOUN,Interview(L196),3
+direct message,ADJ NOUN,Interview(L196),3
+specific question,ADJ NOUN,Interview(L256); Calibrate(L343),3
+multiple perspective,ADJ NOUN,Interview(L265); Calibrate(L486),3
+corrective action,ADJ NOUN,Interview(L272); Calibrate(L414); Distribute(L506),3
+interview note,NOUN NOUN,Interview(L304),3
+final report,ADJ NOUN,Calibrate(L316),3
+incident review meeting,NOUN NOUN NOUN,Calibrate(L316),3
+analysis process,NOUN NOUN,Calibrate(L322); Continued Learning(L569),3
+action item meeting,NOUN NOUN NOUN,Calibrate(L396); Continued Learning(L597),3
+accident investigation,PROPN PROPN,Continued Learning(L548),3
+dev team,NOUN NOUN,Continued Learning(L565),3
+new approach,ADJ NOUN,Continued Learning(L579),3
+incident phase,NOUN NOUN,Continued Learning(L581),3
+investigation program,NOUN NOUN,Home(L8),2
+everyday work,ADJ NOUN,Home(L15),2
+human performance,ADJ NOUN,Home(L17); Continued Learning(L546),2
+insight generation,PROPN PROPN,Home(L20); Continued Learning(L591),2
+error reduction,PROPN PROPN,Home(L20),2
+incident metric,NOUN NOUN,Home(L22),2
+mean time,ADJ NOUN,Home(L22); Analyze(L160),2
+incident analysis program,NOUN NOUN NOUN,Home(L24); Continued Learning(L562),2
+near miss,固定表現,Home(L39),2
+root-cause analysis,NOUN NOUN,Home(L46); Continued Learning(L565),2
+distribution of finding,NOUN ADP NOUN,Home(L51); Assign(L69),2
+knowledge elicitation,NOUN NOUN,Home(L53); Assign(L81),2
+initial finding,ADJ NOUN,Home(L55); Calibrate(L311),2
+foundational level,ADJ NOUN,Assign(L75),2
+level of knowledge,NOUN ADP NOUN,Assign(L75),2
+investigation technique,NOUN NOUN,Assign(L76),2
+data source,NOUN NOUN,Assign(L100); Analyze(L164),2
+contextual information,ADJ NOUN,Assign(L100),2
+chat transcript,NOUN NOUN,Assign(L100); Interview(L244),2
+contributing factor,VERB NOUN,Analyze(L134); Calibrate(L481),2
+deeper insight,ADJ NOUN,Analyze(L138); Continued Learning(L569),2
+in hindsight,固定表現,Analyze(L143),2
+deeper analysis,ADJ NOUN,Analyze(L143),2
+visual representation,ADJ NOUN,Analyze(L164); Calibrate(L331),2
+individual interview,ADJ NOUN,Analyze(L185); Continued Learning(L593),2
+key participant,ADJ NOUN,Analyze(L185); Calibrate(L358),2
+incident participant,NOUN NOUN,Interview(L195); Calibrate(L311),2
+response effort,NOUN NOUN,Interview(L198),2
+relevant new information,ADJ ADJ NOUN,Interview(L205),2
+work ticket,NOUN NOUN,Interview(L215); Calibrate(L459),2
+organizational change,ADJ NOUN,Interview(L219); Continued Learning(L577),2
+follow-up question,NOUN NOUN,Interview(L250),2
+mental model,ADJ NOUN,Calibrate(L313),2
+raw data,ADJ NOUN,Calibrate(L322),2
+key theme,ADJ NOUN,Calibrate(L322),2
+consolidation of data,NOUN ADP NOUN,Calibrate(L331),2
+question survey,NOUN NOUN,Calibrate(L364),2
+opening remark,NOUN NOUN,Calibrate(L391),2
+parking lot,NOUN NOUN,Calibrate(L412),2
+continuous learning,ADJ NOUN,Calibrate(L466); Distribute(L527),2
+investigation report,PROPN PROPN,Calibrate(L492); Distribute(L516),2
+future reader,ADJ NOUN,Calibrate(L499); Distribute(L527),2
+valuable insight,ADJ NOUN,Calibrate(L501); Continued Learning(L611),2
+continued learning,PROPN PROPN,Continued Learning(L538),2
+new investigation process,ADJ NOUN NOUN,Continued Learning(L576),2
+strong incident analysis,ADJ NOUN NOUN,Continued Learning(L587),2
+post-incident meeting,NOUN NOUN,Continued Learning(L595),2
+level of analysis,NOUN ADP NOUN,Continued Learning(L609),2
+prescriptive formula,ADJ NOUN,Continued Learning(L616),2
+potential action item,ADJ NOUN NOUN,Continued Learning(L638),2
+moving forward,固定表現,Interview(L304),1
+on the same page,固定表現,Calibrate(L430),1

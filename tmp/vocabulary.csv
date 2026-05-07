@@ -1,0 +1,516 @@
+﻿英語名,日本語訳,品詞,対象分類,関連語,独自辞書,場所,出現数
+incident,インシデント / 障害事象,名詞,イベント,investigation / response / post-incident,○,Home(L6); Assign(L65); Analyze(L109); Interview(L195); Calibrate(L311); Distribute(L508); Closing Thoughts(L531); Continued Learning(L549),181
+investigation,調査 / インシデント調査,名詞,プロセス,investigator / investigate / finding,○,Home(L2); Assign(L64); Analyze(L110); Interview(L203); Calibrate(L313); Distribute(L508); Continued Learning(L548),82
+meeting,ミーティング / 会議,名詞,会議,facilitator / participant / agenda,×,Home(L55); Analyze(L132); Calibrate(L311); Distribute(L508); Continued Learning(L572),79
+review,レビュー / 振り返り / 見直し,名詞,会議,post-incident / meeting / finding,×,Home(L24); Assign(L76); Analyze(L120); Interview(L198); Calibrate(L316); Distribute(L506); Continued Learning(L560),67
+event,イベント / 事象 / 出来事,名詞,イベント,incident / timeline / sequence,×,Home(L11); Assign(L65); Analyze(L110); Interview(L198); Calibrate(L316); Distribute(L513); Continued Learning(L594),63
+interview,インタビュー / 聞き取り調査,名詞,会議,interviewee / facilitator / question,○,Home(L24); Assign(L96); Analyze(L118); Interview(L192); Calibrate(L311); Continued Learning(L593),60
+participant,参加者 / 関係者,名詞,人物,facilitator / interviewee / meeting,×,Home(L39); Assign(L77); Analyze(L110); Interview(L195); Calibrate(L311); Continued Learning(L594),53
+analysis,分析 / 解析,名詞,プロセス,analyze / finding / data,×,Home(L24); Assign(L69); Analyze(L110); Interview(L207); Calibrate(L310); Distribute(L520); Closing Thoughts(L531); Continued Learning(L562),51
+document,ドキュメント / 文書,名詞,ドキュメント,report / transcript / artifact,×,Home(L24); Assign(L100); Analyze(L120); Interview(L304); Calibrate(L311); Distribute(L513); Continued Learning(L572),47
+process,プロセス / 手順 / 工程,名詞,プロセス,workflow / approach / method,×,Home(L6); Assign(L65); Analyze(L132); Interview(L269); Calibrate(L322); Distribute(L513); Continued Learning(L540),43
+data,データ / 情報,名詞,データ,information / analysis / timeline,×,Home(L24); Assign(L99); Analyze(L109); Interview(L196); Calibrate(L311); Distribute(L511),41
+learn,学ぶ / 学習する,動詞,,learning / insight / knowledge,×,Home(L10); Assign(L76); Analyze(L143); Interview(L207); Calibrate(L341); Distribute(L508); Continued Learning(L577),38
+investigator,調査者 / 調査担当者,名詞,人物,investigation / interview / facilitator,○,Home(L29); Assign(L69); Analyze(L112); Interview(L219); Calibrate(L316); Continued Learning(L540),38
+question,質問 / 問い,名詞,主題,interview / answer / clarification,×,Assign(L81); Analyze(L116); Interview(L224); Calibrate(L320); Continued Learning(L577),37
+report,レポート / 報告書,名詞,ドキュメント,distribute / finding / summary,×,Home(L24); Analyze(L112); Calibrate(L311); Distribute(L508); Continued Learning(L649),35
+organization,組織 / 企業,名詞,組織,management / culture,×,Home(L11); Assign(L65); Analyze(L134); Interview(L203); Calibrate(L339); Distribute(L508); Continued Learning(L561),34
+action,アクション / 対応 / 行動,名詞,行動,decision / improvement / response,×,Home(L24); Analyze(L134); Interview(L212); Calibrate(L396); Distribute(L506); Continued Learning(L597),30
+learning,学習 / 学び,名詞,概念,insight / knowledge / improvement,×,Home(L24); Assign(L65); Analyze(L143); Interview(L257); Calibrate(L320); Distribute(L506); Continued Learning(L538),25
+information,情報,名詞,データ,data / source / knowledge,×,Assign(L81); Analyze(L130); Interview(L205); Calibrate(L318); Distribute(L524); Closing Thoughts(L535),25
+share,共有する / 共有,動詞,,distribute / report / finding,×,Home(L55); Assign(L102); Analyze(L161); Interview(L266); Calibrate(L311); Distribute(L506); Continued Learning(L569),23
+timeline,タイムライン / 時系列,名詞,データ,event / incident / visualization,○,Analyze(L115); Calibrate(L332),23
+knowledge,知識,名詞,概念,tacit / learning / expertise,×,Home(L53); Assign(L75); Analyze(L110); Interview(L198); Calibrate(L360); Distribute(L508),22
+interviewee,インタビュー対象者 / 聴取対象者,名詞,人物,interview / interviewer / facilitator,○,Home(L55); Assign(L77); Analyze(L118); Interview(L205); Calibrate(L311); Continued Learning(L591),22
+theme,テーマ / 主題,名詞,主題,finding / insight / pattern,○,Analyze(L116); Interview(L304); Calibrate(L316); Continued Learning(L647),21
+insight,洞察 / 気づき,名詞,データ,finding / analysis / theme,×,Home(L20); Analyze(L138); Interview(L203); Calibrate(L386); Distribute(L511); Continued Learning(L569),20
+system,システム,名詞,システム,service / software / process,×,Home(L15); Assign(L75); Analyze(L134); Interview(L198); Calibrate(L339); Continued Learning(L556),19
+finding,発見 / 所見 / 調査結果,名詞,ドキュメント,analysis / report / insight,○,Home(L24); Assign(L69); Interview(L203); Calibrate(L311); Distribute(L505); Continued Learning(L569),18
+calibration,キャリブレーション / 認識合わせ,名詞,会議,meeting / facilitator / review,○,Home(L24); Analyze(L120); Calibrate(L311); Continued Learning(L572),16
+discussion,議論 / 討論 / ディスカッション,名詞,会議,meeting / participant / facilitate,×,Analyze(L121); Interview(L237); Calibrate(L384); Continued Learning(L624),16
+follow-up,フォローアップ / 追跡調査,複合語,行動,action / recommendation / post-incident,○,Home(L61); Analyze(L140); Interview(L224); Calibrate(L456),15
+post-incident,ポストインシデント / インシデント後の,複合語,,incident / review / investigation,○,Home(L2); Assign(L76); Analyze(L126); Calibrate(L448); Distribute(L527); Continued Learning(L572),14
+conduct,実施する / 遂行する,動詞,,interview / investigation / meeting,×,Home(L6); Analyze(L112); Interview(L200),14
+generate,生成する / 生み出す,動詞,,insight / finding / learning,×,Home(L22); Analyze(L191); Calibrate(L364); Continued Learning(L634),14
+experience,経験 / 体験,名詞,概念,knowledge / expertise / perspective,×,Home(L53); Assign(L90); Interview(L250); Calibrate(L332); Distribute(L524),13
+perspective,視点 / 観点,名詞,概念,insight / view / knowledge,×,Assign(L81); Interview(L207); Calibrate(L367); Continued Learning(L644),12
+narrative,ナラティブ / 物語形式の記述,名詞,ドキュメント,timeline / event / recount,○,Analyze(L115); Calibrate(L336),12
+hypothesis,仮説,名詞,概念,analysis / disprove / evidence,○,Analyze(L134); Interview(L207); Calibrate(L336),12
+context,文脈 / 背景 / コンテキスト,名詞,状態,background / situation / history,×,Home(L22); Analyze(L112); Interview(L207); Calibrate(L391); Continued Learning(L562),11
+introduce,導入する / 紹介する,動詞,,facilitator / meeting / participant,×,Home(L46); Interview(L237); Continued Learning(L562),11
+recommend,推奨する / 勧める,動詞,,action / improvement / finding,×,Assign(L83); Analyze(L134); Interview(L232); Calibrate(L404); Continued Learning(L638),11
+impact,影響 / インパクト,名詞,属性,severity / incident / outcome,×,Assign(L93); Analyze(L134); Interview(L207); Calibrate(L336); Continued Learning(L577),11
+approach,アプローチ / 方法 / 取り組み,名詞,プロセス,method / process / technique,×,Analyze(L112); Interview(L234); Calibrate(L461); Closing Thoughts(L531); Continued Learning(L579),11
+feedback,フィードバック,名詞,データ,calibration / suggestion / review,×,Interview(L269); Calibrate(L316),11
+explain,説明する,動詞,,context / narrative / communicate,×,Home(L17); Interview(L265); Calibrate(L360),10
+folk,人々 / 関係者,名詞,人物,participant / others,×,Home(L46); Calibrate(L341); Distribute(L508); Continued Learning(L579),10
+responder,レスポンダー / 対応者,名詞,人物,incident / response / on-call,○,Analyze(L147); Interview(L196); Calibrate(L410); Continued Learning(L644),10
+view,視点 / 見解 / 閲覧する,名詞,概念,perspective / insight / understanding,×,Analyze(L164); Interview(L284); Calibrate(L332); Continued Learning(L545),10
+invite,招待する / 呼びかける,動詞,,participant / meeting / assign,×,Interview(L237); Calibrate(L353); Continued Learning(L647),10
+engineer,エンジニア,名詞,人物,responder / participant / on-call,×,Home(L15); Analyze(L189); Interview(L228); Calibrate(L372); Continued Learning(L608),9
+goal,目標 / 目的,名詞,主題,objective / purpose / outcome,×,Home(L15); Analyze(L137); Calibrate(L461); Continued Learning(L562),9
+surprise,驚き / 予期しない事態,名詞,主題,finding / insight / incident,×,Home(L15); Interview(L297); Calibrate(L311); Continued Learning(L621),9
+individual,個人 / 個々の,形容詞,,participant / stakeholder,×,Home(L22); Assign(L100); Analyze(L185); Calibrate(L336); Continued Learning(L565),9
+meet,満たす / 応じる,動詞,,meeting / participant / facilitator,×,Home(L24); Assign(L85); Analyze(L189); Calibrate(L350); Continued Learning(L642),9
+every,それぞれ / 毎,冠詞,,,×,Home(L28); Assign(L69); Continued Learning(L604),9
+believe,信じる / 考える,動詞,,,×,Home(L30); Interview(L198); Calibrate(L466); Closing Thoughts(L531),9
+collect,収集する / 集める,動詞,,data / information / evidence,×,Assign(L100); Analyze(L119); Interview(L200); Calibrate(L322),9
+channel,チャンネル / 通信経路,名詞,システム,communication / message / chat,×,Assign(L102); Interview(L244),9
+detail,詳細 / 詳細情報,名詞,データ,information / narrative / context,×,Analyze(L110); Interview(L198); Calibrate(L347),9
+answer,回答 / 答え,名詞,主題,question / interview / clarification,×,Analyze(L116); Interview(L250); Calibrate(L384); Continued Learning(L606),9
+talk,話す / 話し合う,動詞,,interview / communicate / discussion,×,Analyze(L187); Interview(L198); Calibrate(L399); Continued Learning(L552),9
+engineering,エンジニアリング / 工学,名詞,概念,system / software / practice,×,Home(L15); Assign(L105); Interview(L196); Calibrate(L463); Distribute(L508); Continued Learning(L551),8
+expertise,専門知識 / 専門性,名詞,概念,knowledge / skill / expert,×,Home(L15); Interview(L211); Calibrate(L360); Continued Learning(L608),8
+improvement,改善 / 向上,名詞,行動,action / recommendation / process,×,Home(L20); Analyze(L159); Calibrate(L364); Distribute(L527); Continued Learning(L572),8
+mean,意味する / 平均,動詞,,,×,Home(L22); Analyze(L160); Interview(L290); Calibrate(L369),8
+skill,スキル / 技術,名詞,概念,expertise / knowledge / training,×,Home(L24); Analyze(L138); Interview(L248); Continued Learning(L540),8
+assign,割り当てる / アサインする,動詞,,investigator / facilitator,×,Home(L24); Assign(L62); Calibrate(L459); Continued Learning(L589),8
+investigate,調査する,動詞,,investigation / investigator / analysis,○,Home(L30); Assign(L83); Analyze(L112); Interview(L200); Calibrate(L446); Continued Learning(L627),8
+response,対応 / レスポンス,名詞,行動,incident / responder / action,×,Assign(L75); Interview(L196); Calibrate(L473),8
+source,情報源 / 原因,名詞,データ,data / evidence / information,×,Assign(L100); Analyze(L153); Interview(L211); Calibrate(L486); Continued Learning(L592),8
+chat,チャット,名詞,システム,message / communication / channel,×,Assign(L100); Interview(L207); Calibrate(L322); Continued Learning(L599),8
+message,メッセージ,名詞,データ,communication / chat / channel,×,Assign(L102); Analyze(L140); Interview(L196),8
+schedule,スケジュール / 予定,動詞,,meeting / interview / calendar,×,Analyze(L114); Interview(L222); Calibrate(L367); Distribute(L508),8
+improve,改善する / 向上させる,動詞,,improvement / process / learning,×,Analyze(L138); Calibrate(L447); Continued Learning(L562),8
+practice,実践 / プラクティス / 慣行,名詞,概念,process / approach / standard,×,Analyze(L159); Calibrate(L459); Continued Learning(L571),8
+record,記録する / 録音する,動詞,,transcript / recording / document,×,Interview(L250); Calibrate(L404),8
+expert,専門家 / エキスパート,名詞,人物,expertise / knowledge / facilitator,×,Home(L6); Analyze(L176); Calibrate(L336); Continued Learning(L646),7
+service,サービス,名詞,システム,system / software / incident,×,Home(L11); Interview(L228); Calibrate(L322); Continued Learning(L619),7
+software,ソフトウェア,名詞,システム,system / service / engineer,×,Home(L15); Analyze(L154); Interview(L196); Calibrate(L339); Continued Learning(L608),7
+opportunity,機会 / チャンス,名詞,概念,learning / improvement,×,Home(L15); Analyze(L159); Interview(L237); Calibrate(L351); Distribute(L508); Continued Learning(L647),7
+performance,パフォーマンス / 性能 / 職務遂行,名詞,概念,system / metric / improvement,×,Home(L17); Analyze(L191); Continued Learning(L546),7
+prepare,準備する,動詞,,interview / facilitator / meeting,×,Home(L24); Analyze(L112); Interview(L243); Calibrate(L355),7
+integrate,統合する,動詞,,process / workflow / system,×,Home(L24); Interview(L219); Calibrate(L358); Distribute(L508),7
+represent,表す / 表現する,動詞,,visualization / data / narrative,×,Home(L26); Interview(L210); Calibrate(L332); Distribute(L524),7
+encourage,促す / 奨励する,動詞,,participant / facilitator / learning,×,Home(L37); Interview(L253); Calibrate(L428); Continued Learning(L577),7
+others,他の人々 / その他,名詞,人物,participant / colleague,×,Home(L41); Analyze(L154); Calibrate(L327); Distribute(L524),7
+future,将来の / 今後の,形容詞,,,×,Home(L46); Calibrate(L447); Distribute(L513),7
+facilitator,ファシリテーター,名詞,人物,interview / meeting / interviewee,○,Assign(L83); Calibrate(L380); Continued Learning(L543),7
+relevant,関連した / 適切な,形容詞,,,×,Assign(L100); Interview(L205); Calibrate(L483),7
+analyze,分析する,動詞,,analysis / data / finding,○,Analyze(L107); Interview(L244); Continued Learning(L608),7
+consolidate,統合する / まとめる,動詞,,finding / analysis / theme,×,Analyze(L120); Interview(L196); Calibrate(L311),7
+useful,有用な / 役立つ,形容詞,,,×,Analyze(L130); Interview(L241); Calibrate(L459),7
+tagging,タグ付け,名詞,プロセス,theme / analysis / pattern,○,Analyze(L132),7
+reader,読者 / 参加者,名詞,人物,participant / report / document,×,Analyze(L143); Calibrate(L447); Distribute(L527); Continued Learning(L577),7
+problem,問題 / 課題,名詞,主題,issue / challenge / incident,×,Analyze(L151); Interview(L207); Calibrate(L408); Continued Learning(L632),7
+decision,意思決定 / 決断,名詞,行動,action / response / outcome,×,Interview(L200); Distribute(L522); Continued Learning(L585),7
+broad,広い / 幅広い,形容詞,,,×,Interview(L207); Calibrate(L483),7
+ready,準備できている / 用意する,形容詞,,,×,Interview(L224); Calibrate(L380); Continued Learning(L579),7
+scribe,記録係 / 書記,名詞,人物,meeting / facilitator / transcript,○,Interview(L252),7
+material,資料 / 素材,名詞,ドキュメント,document / preparation,×,Interview(L260); Calibrate(L358); Closing Thoughts(L535),7
+valuable,価値のある / 貴重な,形容詞,,,×,Calibrate(L483); Continued Learning(L608),7
+collaboration,コラボレーション / 協働,名詞,概念,communication / process,×,Home(L2); Analyze(L164); Calibrate(L329); Continued Learning(L572),6
+factor,要因 / 要素,名詞,属性,root-cause / analysis,×,Home(L15); Analyze(L134); Interview(L205); Calibrate(L466),6
+value,価値,名詞,概念,learning / insight,×,Home(L15); Distribute(L524); Closing Thoughts(L533); Continued Learning(L614),6
+error,エラー / 誤り,名詞,イベント,failure / incident / outage,×,Home(L20); Continued Learning(L545),6
+interest,関心 / 興味,名詞,概念,,×,Home(L33); Analyze(L132); Interview(L219); Calibrate(L327); Continued Learning(L627),6
+prior,事前の / 先の,形容詞,,,×,Home(L55); Assign(L91); Calibrate(L389); Continued Learning(L646),6
+component,コンポーネント / 構成要素,名詞,属性,system / factor / process,×,Assign(L75); Interview(L214); Calibrate(L452); Continued Learning(L587),6
+interviewing,インタビュー / 聞き取り,名詞,プロセス,interview / facilitator / question,○,Assign(L76); Interview(L219); Calibrate(L322); Continued Learning(L569),6
+technical,技術的な / テクニカルな,形容詞,,,×,Assign(L81); Interview(L198); Calibrate(L324),6
+handle,対処する / 処理する,動詞,,issue / response / process,×,Assign(L90); Analyze(L132); Calibrate(L466); Continued Learning(L583),6
+conversation,会話 / 対話,名詞,会議,interview / communication,×,Assign(L91); Interview(L196); Calibrate(L412),6
+organizational,組織的な / 組織の,形容詞,,organization / culture,×,Assign(L100); Interview(L219); Calibrate(L479); Continued Learning(L577),6
+track,追跡する / 記録する,動詞,,timeline / data / record,×,Assign(L102); Analyze(L112); Calibrate(L414); Distribute(L527),6
+support,サポートする / 支援する,動詞,,facilitator / participant,×,Analyze(L120); Calibrate(L483); Continued Learning(L577),6
+suggest,提案する / 示唆する,動詞,,recommendation / finding,×,Analyze(L132); Calibrate(L388); Continued Learning(L634),6
+aspect,側面 / 観点,名詞,属性,factor,×,Analyze(L132); Interview(L304); Calibrate(L324); Continued Learning(L577),6
+transcript,トランスクリプト / 会話記録,名詞,ドキュメント,interview / recording,○,Analyze(L132); Interview(L207); Calibrate(L322),6
+engage,関与する / 取り組む,動詞,,participant / facilitator,×,Analyze(L143); Interview(L304); Calibrate(L447); Distribute(L513); Continued Learning(L642),6
+reach,連絡する / 到達する,動詞,,participant / communicate,×,Analyze(L167); Interview(L235); Calibrate(L360); Continued Learning(L599),6
+notice,気づく / 気づき,名詞,主題,finding / insight,×,Analyze(L169); Interview(L207); Calibrate(L336); Continued Learning(L585),6
+contribute,貢献する / 寄与する,動詞,,factor / learning,×,Interview(L219); Calibrate(L416); Distribute(L524); Continued Learning(L647),6
+recording,録音 / 記録,名詞,ドキュメント,transcript / interview,○,Interview(L244); Calibrate(L497),6
+critical,重大な / 批判的な,形容詞,,,×,Home(L11); Interview(L200); Continued Learning(L577),5
+continue,続ける / 継続する,動詞,,,×,Home(L11); Distribute(L524); Closing Thoughts(L535),5
+productive,生産的な,形容詞,,meeting,×,Home(L11); Interview(L198); Calibrate(L406),5
+distribute,配布する / 共有する,動詞,,report / document / share,×,Home(L24); Interview(L269); Distribute(L502),5
+tool,ツール / 手段,名詞,システム,process / approach,×,Home(L37); Interview(L196); Continued Learning(L565),5
+progress,進捗 / 進む,名詞,状態,process,×,Home(L37); Analyze(L110); Interview(L252); Distribute(L527),5
+brief,簡潔な / 概要,形容詞,,,×,Home(L45); Interview(L270); Calibrate(L364); Continued Learning(L565),5
+term,用語 / 期間,名詞,主題,,×,Home(L46); Assign(L91),5
+piece,一部 / 要素,名詞,属性,,×,Home(L46); Analyze(L154); Calibrate(L322),5
+together,一緒に / 共同で,副詞,,,×,Home(L55); Analyze(L158); Calibrate(L408),5
+final,最終的な,形容詞,,,×,Home(L55); Calibrate(L316),5
+facilitated,ファシリテートされた,形容詞,,facilitate / facilitator / review,×,Home(L59); Calibrate(L316),5
+facilitate,促進する / ファシリテートする,動詞,,facilitator / meeting / discussion,×,Assign(L76); Calibrate(L336); Continued Learning(L595),5
+drive,推進する / 動かす,動詞,,process / improvement,×,Assign(L78); Analyze(L187); Interview(L224); Continued Learning(L632),5
+situation,状況 / 状態,名詞,状態,context / background,×,Assign(L93); Analyze(L143); Interview(L276),5
+prompt,促す / 引き出す,動詞,,question / interview / facilitate,×,Assign(L96); Interview(L215); Calibrate(L343),5
+on-call,オンコール,複合語,役割,responder / incident / engineer,○,Assign(L100); Analyze(L114); Interview(L296),5
+communication,コミュニケーション / 情報共有,名詞,概念,channel / share,×,Assign(L102); Analyze(L161); Interview(L198); Continued Learning(L602),5
+general,一般的な / 全般的な,形容詞,,,×,Assign(L102); Analyze(L110); Interview(L219),5
+capture,記録する / 捉える,動詞,,data / transcript / record,×,Assign(L102); Interview(L250); Calibrate(L311),5
+inform,知らせる / 伝える,動詞,,communicate / share,×,Analyze(L110); Interview(L203); Distribute(L513),5
+progression,進行 / 推移,名詞,状態,timeline / event,×,Analyze(L110); Calibrate(L459),5
+emerge,浮かび上がる / 明らかになる,動詞,,finding / theme,×,Analyze(L110); Interview(L304); Calibrate(L318),5
+orient,把握する / 方向づける,動詞,,context / interview,×,Analyze(L114),5
+depend,依存する,動詞,,factor,×,Analyze(L134); Interview(L205); Continued Learning(L562),5
+update,更新 / 状況報告,名詞,行動,report / communication,×,Analyze(L134); Interview(L207); Calibrate(L424),5
+comprehensive,包括的な / 網羅的な,形容詞,,,×,Analyze(L137); Interview(L207); Calibrate(L378); Continued Learning(L543),5
+face,直面する,動詞,,challenge / situation,×,Analyze(L151); Interview(L219); Calibrate(L324); Continued Learning(L611),5
+coordination,調整 / コーディネーション,名詞,概念,communication / process,×,Analyze(L159); Interview(L219); Calibrate(L459),5
+else,それ以外に,副詞,,,×,Analyze(L180); Interview(L246); Calibrate(L336),5
+wish,望む,動詞,,,×,Interview(L229); Calibrate(L418),5
+minute,（会議の）議事録 / 分,名詞,ドキュメント,meeting / record,×,Interview(L232); Calibrate(L420),5
+adjust,調整する / 適応させる,動詞,,process,×,Interview(L248); Distribute(L511); Continued Learning(L561),5
+strong,強い / 充実した,形容詞,,,×,Interview(L304); Continued Learning(L572),5
+produce,生み出す / 作成する,動詞,,document / report,×,Calibrate(L341); Distribute(L513); Continued Learning(L632),5
+discuss,議論する / 話し合う,動詞,,meeting / discussion,×,Calibrate(L346); Continued Learning(L546),5
+describe,記述する / 説明する,動詞,,narrative / context,×,Calibrate(L360); Continued Learning(L549),5
+circulate,回覧する / 配布する,動詞,,document / report / share,×,Calibrate(L362),5
+overview,概要 / 全体像,名詞,ドキュメント,summary / report,×,Calibrate(L420),5
+postmortem,ポストモーテム / 事後検討,名詞,会議,post-mortem / review,○,Calibrate(L488); Continued Learning(L636),5
+program,プログラム / 制度,名詞,プロセス,process,×,Home(L8); Continued Learning(L562),4
+resilience,レジリエンス / 回復力,名詞,概念,safety / learning,○,Home(L15); Interview(L211); Continued Learning(L551),4
+human,人間の / ヒューマン,形容詞,,,×,Home(L15); Continued Learning(L545),4
+extract,抽出する,動詞,,data / information,×,Home(L15); Assign(L65); Interview(L276); Calibrate(L486),4
+quality,品質 / 質,名詞,属性,performance,×,Home(L22); Interview(L271); Calibrate(L463); Continued Learning(L614),4
+walk,（説明を）ウォークスルーする,動詞,,timeline / narrative,×,Home(L24); Analyze(L143); Calibrate(L336),4
+accept,受け入れる / 引き受ける,動詞,,,×,Home(L24); Assign(L87); Continued Learning(L590),4
+research,調査 / 研究,名詞,プロセス,analysis,×,Home(L26); Distribute(L522); Continued Learning(L634),4
+constraint,制約 / 制限,名詞,属性,factor / situation,×,Home(L29); Interview(L219); Calibrate(L406),4
+toolbox,ツールボックス / 道具箱,名詞,システム,tool / resource,○,Home(L35); Continued Learning(L567),4
+gain,得る / 獲得する,動詞,,learning / insight,×,Home(L37); Interview(L219); Calibrate(L424); Closing Thoughts(L533),4
+structure,構造 / 体制,名詞,属性,process,×,Home(L41); Analyze(L164); Calibrate(L392),4
+language,言語 / 表現,名詞,概念,communication,×,Home(L45),4
+speak,話す,動詞,,interview / communicate,×,Home(L46); Analyze(L110); Calibrate(L360); Continued Learning(L642),4
+culture,文化 / 組織文化,名詞,概念,organization / blameless / blame-aware,○,Home(L46); Interview(L198); Distribute(L522); Continued Learning(L572),4
+reflect,反映する / 振り返る,動詞,,learning / review,×,Home(L46); Interview(L304); Calibrate(L343),4
+expect,期待する / 予期する,動詞,,,×,Home(L46); Interview(L211); Calibrate(L444); Continued Learning(L642),4
+recognize,認識する / 認める,動詞,,acknowledge,×,Home(L49); Calibrate(L406); Continued Learning(L611),4
+blame,非難する / 責任を問う,動詞,,blameless / blame-aware / culture,○,Home(L49); Interview(L210); Calibrate(L406),4
+past,過去 / 以前,名詞,時間,history,×,Home(L49); Analyze(L164); Calibrate(L406); Distribute(L513),4
+gather,収集する / 集める,動詞,,data / information / evidence,×,Home(L53); Analyze(L138); Calibrate(L486),4
+uncover,明らかにする / 発見する,動詞,,finding / insight / evidence,×,Home(L59); Distribute(L508),4
+attention,注意 / 集中,名詞,概念,,×,Assign(L78); Analyze(L152); Continued Learning(L616),4
+issue,問題 / 課題,名詞,主題,problem / challenge / concern,×,Assign(L81); Analyze(L169); Calibrate(L336),4
+surface,表面化する / 浮かび上がらせる,動詞,,finding / theme / insight,×,Assign(L81); Interview(L198); Calibrate(L327),4
+party,当事者 / 関係者,名詞,人物,stakeholder,×,Assign(L83); Analyze(L159); Calibrate(L383),4
+remind,思い出させる / 念押しする,動詞,,facilitator / participant,×,Assign(L85); Calibrate(L380); Continued Learning(L638),4
+colleague,同僚,名詞,人物,participant,×,Assign(L90); Interview(L241); Calibrate(L488),4
+finish,完了する / 終了する,動詞,,meeting / process,×,Assign(L95); Interview(L232); Calibrate(L495); Distribute(L524),4
+transcripts,（会話）記録 / 議事録,名詞,ドキュメント,transcript / recording / interview,×,Assign(L100); Analyze(L114); Interview(L244),4
+background,背景 / 経歴,名詞,属性,context / history,×,Assign(L100); Calibrate(L424),4
+ticket,チケット / タスク管理票,名詞,ドキュメント,jira,×,Assign(L100); Interview(L215); Calibrate(L420),4
+player,関係者 / プレイヤー,名詞,人物,participant / stakeholder,×,Assign(L102); Interview(L207),4
+understanding,理解 / 把握,名詞,概念,knowledge / insight,×,Analyze(L110); Interview(L281); Continued Learning(L636),4
+technology,技術 / テクノロジー,名詞,概念,system / software,×,Analyze(L110); Calibrate(L481); Distribute(L522),4
+moment,瞬間 / タイミング,名詞,時間,timeline / event,×,Analyze(L130); Interview(L219); Calibrate(L336),4
+method,方法 / 手法,名詞,プロセス,approach / technique,×,Analyze(L132); Interview(L200); Calibrate(L420),4
+standard,標準 / 基準,名詞,概念,process / rule,×,Analyze(L134); Calibrate(L488); Continued Learning(L564),4
+stakeholder,ステークホルダー / 利害関係者,名詞,人物,participant / organization,×,Analyze(L134); Interview(L207); Calibrate(L376),4
+pressure,プレッシャー / 圧力,名詞,状態,situation,×,Analyze(L137); Continued Learning(L632),4
+outcome,結果 / 成果,名詞,主題,finding / result,×,Analyze(L143); Interview(L248); Calibrate(L463),4
+disprove,反証する / 否定する,動詞,,hypothesis / evidence,×,Analyze(L154); Calibrate(L336),4
+form,形式 / 様式,名詞,ドキュメント,document,×,Analyze(L154); Interview(L265); Calibrate(L324),4
+base,基づく / ベースにする,動詞,,evidence / data,×,Analyze(L164); Interview(L304); Calibrate(L332); Continued Learning(L642),4
+leave,残す / 書き残す,動詞,,action / record,×,Analyze(L167); Interview(L256); Calibrate(L404),4
+business,ビジネス / 業務,名詞,組織,organization,×,Analyze(L175); Calibrate(L372); Distribute(L506),4
+effort,取り組み / 努力,名詞,行動,action / improvement,×,Interview(L198); Calibrate(L318),4
+customer,顧客,名詞,人物,stakeholder / user,×,Interview(L207); Calibrate(L374),4
+plan,計画 / プラン,名詞,ドキュメント,action / recommendation,×,Interview(L232); Continued Learning(L569),4
+calibrate,キャリブレーションする / 認識を合わせる,動詞,,calibration / review,○,Calibrate(L307),4
+write-up,ライトアップ / 調査記録文書,複合語,ドキュメント,report / document / narrative,○,Calibrate(L315),4
+comment,コメント,名詞,主題,feedback / remark,×,Calibrate(L316),4
+agenda,アジェンダ / 議事次第,名詞,ドキュメント,meeting / facilitator,×,Calibrate(L362),4
+crucial,非常に重要な / 不可欠な,形容詞,,,×,Home(L11); Analyze(L160); Calibrate(L378),3
+everyday,日常の / 日常業務の,形容詞,,,×,Home(L15); Interview(L196),3
+book,書籍,名詞,ドキュメント,resource,×,Home(L17); Distribute(L522),3
+respond,対応する / 応答する,動詞,,incident / response,×,Home(L22); Analyze(L160); Interview(L296),3
+picture,全体像 / 状況,名詞,主題,overview,×,Home(L22); Interview(L265),3
+efficient,効率的な,形容詞,,,×,Home(L29); Interview(L250); Continued Learning(L608),3
+development,開発 / 発展,名詞,概念,improvement / process,×,Home(L30); Distribute(L516); Continued Learning(L565),3
+flexible,柔軟な,形容詞,,,×,Home(L33); Analyze(L132); Interview(L224),3
+severity,重大度 / 深刻度,名詞,属性,incident / impact,○,Home(L33); Analyze(L130),3
+seek,求める / 探す,動詞,,information / insight,×,Home(L37); Interview(L203); Distribute(L513),3
+availability,可用性 / 参加可否,名詞,属性,schedule / participant,×,Home(L39); Interview(L205),3
+train,トレーニングする / 訓練する,動詞,,facilitator / skill / learning,×,Home(L41); Assign(L76),3
+post-mortem,ポストモーテム / 事後検討,複合語,会議,review / postmortem / incident,○,Home(L46); Analyze(L121),3
+history,履歴 / 歴史,名詞,データ,timeline / past,×,Home(L46); Analyze(L173); Continued Learning(L609),3
+blame-aware,ブレームアウェア（非難を意識した上での）,複合語,,blameless / blame / culture,○,Home(L46); Calibrate(L406),3
+present,提示する / 発表する,動詞,,meeting / finding / report,×,Home(L46); Calibrate(L481); Distribute(L508),3
+acknowledge,認める / 承認する,動詞,,blame / feedback,×,Home(L49); Calibrate(L358),3
+distribution,配布 / 展開,名詞,プロセス,distribute / share,×,Home(L51); Assign(L69); Calibrate(L501),3
+participants,参加者たち,名詞,人物,participant / meeting,×,Home(L55); Analyze(L187); Calibrate(L447),3
+position,立場 / 役職,名詞,役割,responsibility,×,Assign(L67); Calibrate(L380),3
+seem,見える / ～のように見える,動詞,,,×,Assign(L69); Interview(L304); Continued Learning(L620),3
+technique,テクニック / 手法,名詞,プロセス,method / approach,×,Assign(L76); Interview(L200),3
+commit,コミットする / 取り組む,動詞,,action / responsibility,×,Assign(L77); Continued Learning(L636),3
+fear,恐れ / 懸念,名詞,状態,blame / blameless,×,Assign(L83); Interview(L210),3
+concern,懸念 / 心配,名詞,主題,issue / problem,×,Assign(L83); Calibrate(L447); Continued Learning(L601),3
+unsure,不確かな / 自信がない,形容詞,,,×,Assign(L83); Calibrate(L380),3
+management,管理 / マネジメント,名詞,プロセス,organization / process,×,Assign(L83); Calibrate(L375); Continued Learning(L577),3
+manage,管理する / こなす,動詞,,process / facilitation,×,Assign(L95); Interview(L219),3
+mention,言及する / 触れる,動詞,,interview,×,Assign(L102); Analyze(L137); Continued Learning(L562),3
+pull,取り出す / 収集する,動詞,,data / information,×,Assign(L105); Interview(L257),3
+iterative,反復的な / イテレーティブな,形容詞,,process,×,Analyze(L110); Calibrate(L469),3
+artifact,アーティファクト / 成果物 / 記録物,名詞,ドキュメント,document / evidence,○,Analyze(L110); Calibrate(L420); Continued Learning(L642),3
+clarify,明確にする / 確認する,動詞,,question / interview / facilitate,×,Analyze(L110); Calibrate(L313),3
+dashboard,ダッシュボード,名詞,システム,alert / system,×,Analyze(L114); Interview(L294),3
+organize,整理する / 体系化する,動詞,,finding / analysis,×,Analyze(L114),3
+compile,まとめる / 編集する,動詞,,finding / document,×,Analyze(L119); Interview(L207),3
+facilitation,ファシリテーション,名詞,プロセス,facilitator / meeting,○,Analyze(L120); Continued Learning(L542),3
+align,整合させる / 合わせる,動詞,,calibration,×,Analyze(L126); Calibrate(L316); Continued Learning(L594),3
+recount,詳しく語る / 再現する,動詞,,narrative / timeline,○,Analyze(L143); Calibrate(L367),3
+diagnose,診断する / 分析する,動詞,,analysis / investigation,×,Analyze(L143),3
+resolve,解決する,動詞,,incident / issue,×,Analyze(L143); Interview(L212),3
+confusion,混乱 / 混乱状態,名詞,状態,,×,Analyze(L143); Continued Learning(L625),3
+beginning,開始 / 始まり,名詞,時間,timeline / event,×,Analyze(L146); Continued Learning(L583),3
+recruit,招集する / リクルートする,動詞,,participant / investigator,×,Analyze(L148); Interview(L228),3
+signal,シグナル / 兆候,名詞,データ,alert / finding,○,Analyze(L152); Continued Learning(L614),3
+propose,提案する,動詞,,recommendation / hypothesis,×,Analyze(L153),3
+visualization,可視化 / ビジュアライゼーション,名詞,ドキュメント,timeline / data,○,Analyze(L164); Calibrate(L322),3
+suggestion,提案 / 示唆,名詞,主題,recommendation / feedback,×,Analyze(L169); Interview(L207); Calibrate(L364),3
+subject,主題 / 対象者,名詞,主題,topic / theme,×,Analyze(L176); Interview(L207); Calibrate(L424),3
+answered,回答済みの,形容詞,,question,×,Analyze(L187); Calibrate(L418); Continued Learning(L577),3
+previously,以前に / 事前に,副詞,,,×,Analyze(L191); Calibrate(L435),3
+direct,直接の / 率直な,形容詞,,,×,Interview(L196),3
+pattern,パターン / 傾向,名詞,データ,theme / finding,○,Interview(L198); Distribute(L511),3
+decide,決定する,動詞,,decision / action,×,Interview(L200),3
+loop,ループ / 共有 / 情報展開,名詞,プロセス,communication / distribution,○,Interview(L207),3
+owner,オーナー / 担当者,名詞,人物,responsibility,×,Interview(L213); Calibrate(L463),3
+reveal,明らかにする,動詞,,finding / insight / evidence,×,Interview(L219); Continued Learning(L609),3
+email,メール,名詞,システム,communication / channel,×,Interview(L229); Continued Learning(L602),3
+interviewee's,インタビュー対象者の,形容詞,,interviewee,×,Interview(L232),3
+single,単一の,形容詞,,,×,Interview(L232); Calibrate(L481); Distribute(L520),3
+manager,マネージャー / 管理者,名詞,人物,stakeholder / organization,×,Interview(L241); Calibrate(L463),3
+scope,スコープ / 範囲,名詞,属性,investigation / analysis,×,Interview(L244); Calibrate(L420),3
+participate,参加する,動詞,,participant / meeting,×,Interview(L246); Calibrate(L353); Continued Learning(L647),3
+interviewer,インタビュアー / 聴取者,名詞,人物,interview / interviewee / facilitator,○,Interview(L252),3
+remember,思い出す / 覚えておく,動詞,,interview / narrative,×,Interview(L270); Calibrate(L360); Continued Learning(L583),3
+corrective,是正の / 修正の,形容詞,,action / improvement,×,Interview(L272); Calibrate(L414); Distribute(L506),3
+flow,流れ / 進行,名詞,属性,process / timeline,×,Interview(L299); Calibrate(L334),3
+link,リンク,名詞,属性,,×,Interview(L304); Calibrate(L497); Distribute(L527),3
+please,お願いする,動詞,,,×,Interview(L304); Calibrate(L345); Continued Learning(L599),3
+chance,機会 / 可能性,名詞,概念,opportunity,×,Calibrate(L313); Distribute(L508); Continued Learning(L577),3
+model,モデル / 手本,名詞,概念,approach,×,Calibrate(L313),3
+addition,追加 / また,名詞,その他,,×,Calibrate(L313),3
+advance,事前に / 前もって,名詞,時間,preparation,×,Calibrate(L320),3
+consolidation,統合 / まとめ,名詞,プロセス,consolidate / analysis,×,Calibrate(L326),3
+throughout,全体を通じて,前置詞,,,×,Calibrate(L327),3
+among,〜の中で / 〜のあいだで,前置詞,,,×,Calibrate(L327); Continued Learning(L572),3
+communicate,伝達する / コミュニケーションする,動詞,,communication / share,×,Calibrate(L339); Continued Learning(L577),3
+avoid,避ける,動詞,,blame,×,Calibrate(L343),3
+unfold,展開する / 明らかになる,動詞,,event / timeline,×,Calibrate(L351),3
+survey,調査 / アンケート,名詞,ドキュメント,feedback,×,Calibrate(L364),3
+attend,参加する / 出席する,動詞,,meeting / participant,×,Calibrate(L367),3
+remark,発言 / コメント,名詞,主題,comment / feedback,×,Calibrate(L391),3
+commentary,解説 / コメンタリー,名詞,ドキュメント,analysis / finding,×,Calibrate(L426),3
+choose,選ぶ / 選択する,動詞,,decision,×,Calibrate(L426); Continued Learning(L640),3
+continuous,継続的な,形容詞,,,×,Calibrate(L466); Distribute(L527); Continued Learning(L572),3
+adapt,適応する / 応用する,動詞,,process,×,Calibrate(L466); Continued Learning(L565),3
+possibly,もしかすると / 場合によって,副詞,,,×,Calibrate(L486); Continued Learning(L604),3
+iterate,繰り返す / 反復する,動詞,,process,×,Calibrate(L494); Distribute(L522),3
+training,トレーニング / 教育,名詞,プロセス,skill / facilitator,×,Distribute(L516); Continued Learning(L572),3
+prescriptive,規定的な / 処方箋的な,形容詞,,,×,Continued Learning(L565),3
+phase,フェーズ / 段階,名詞,時間,process / timeline,×,Continued Learning(L581),3
+publish,公開する / 発行する,動詞,,report / document,×,Home(L2); Closing Thoughts(L535),2
+laura,Laura（著者名）,固有名詞,,nora / jones,×,Home(L2); Continued Learning(L560),2
+nora,Nora（著者名）,固有名詞,,laura / jones,×,Home(L2),2
+jones,Jones（著者姓）,固有名詞,,laura / nora,×,Home(L2),2
+field,分野 / 現場,名詞,主題,,×,Home(L6); Analyze(L126),2
+applicable,適用可能な / 該当する,形容詞,,,×,Home(L8),2
+size,規模 / サイズ,名詞,属性,scope,×,Home(L8),2
+stage,段階 / フェーズ,名詞,時間,phase / process,×,Home(L8),2
+maintain,維持する,動詞,,process / standard,×,Home(L11); Distribute(L524),2
+requirement,要件 / 要求,名詞,属性,standard / constraint,×,Home(L11); Assign(L85),2
+commitment,コミットメント / 約束 / 責務,名詞,概念,responsibility,×,Home(L11); Interview(L232),2
+success,成功,名詞,主題,outcome / result,×,Home(L15),2
+safety,安全性,名詞,概念,resilience / blameless,○,Home(L15); Continued Learning(L546),2
+reduction,削減 / 軽減,名詞,プロセス,improvement,×,Home(L20),2
+generation,生成 / 創出,名詞,プロセス,learning,×,Home(L20); Continued Learning(L591),2
+industry,業界,名詞,組織,organization,×,Home(L22),2
+emphasize,強調する,動詞,,,×,Home(L22); Continued Learning(L572),2
+metric,メトリクス / 指標,名詞,データ,data / performance,×,Home(L22),2
+wrap,まとめる / 締めくくる,動詞,,meeting / summary,×,Home(L24); Calibrate(L428),2
+finalize,最終化する / 完成させる,動詞,,document / report,×,Home(L24); Calibrate(L486),2
+outline,概略を述べる / アウトライン,動詞,,plan / summary,×,Home(L26),2
+balance,バランスをとる / 調整する,動詞,,,×,Home(L30); Assign(L96),2
+tradeoff,トレードオフ,名詞,概念,decision,×,Home(L30); Interview(L219),2
+increase,増やす / 向上させる,動詞,,improvement,×,Home(L37); Calibrate(L410),2
+public,公開の / 公衆,形容詞,,,×,Home(L39); Interview(L235),2
+substantial,実質的な / 相当な,形容詞,,,×,Home(L39); Interview(L235),2
+miss,見逃す / ニアミス,名詞,主題,,×,Home(L39); Calibrate(L346),2
+hope,期待する / 望む,動詞,,,×,Home(L41); Closing Thoughts(L533),2
+away,離れて,副詞,,,×,Home(L41); Interview(L207),2
+root-cause,根本原因,複合語,主題,investigation / analysis / factor,○,Home(L46); Continued Learning(L565),2
+excite,興奮させる / 意欲を高める,動詞,,,×,Home(L46); Calibrate(L444),2
+tendency,傾向,名詞,属性,pattern,×,Home(L49); Calibrate(L406),2
+responsibility,責任,名詞,概念,commitment,×,Home(L51); Assign(L69),2
+recommendation,推奨事項 / 提言,名詞,ドキュメント,action / finding,×,Home(L51); Calibrate(L404),2
+candidate,候補者,名詞,人物,participant,×,Home(L51); Analyze(L183),2
+elicitation,情報引き出し / 知識抽出,名詞,概念,interview / knowledge,○,Home(L53); Assign(L81),2
+prevent,防ぐ / 回避する,動詞,,action / improvement,×,Home(L55); Assign(L83),2
+draft,草稿 / ドラフト,名詞,ドキュメント,document / report,×,Home(L55); Calibrate(L311),2
+responsible,責任ある / 担当の,形容詞,,responsibility,×,Assign(L67); Calibrate(L459),2
+capacity,キャパシティ / 余裕,名詞,属性,resource,×,Assign(L67); Calibrate(L488),2
+match,一致する / 適合する,名詞,属性,,×,Assign(L69); Continued Learning(L602),2
+foundational,基礎的な / 根本的な,形容詞,,,×,Assign(L75),2
+safe,安全な,形容詞,,safety / blameless,×,Assign(L77),2
+authority,権限 / 権威,名詞,概念,management,×,Assign(L77),2
+dedicate,専念する / 充てる,動詞,,,×,Assign(L78); Continued Learning(L636),2
+better,改善する / より良い,動詞,,,×,Assign(L81); Calibrate(L473),2
+limit,制限する / 制約,動詞,,,×,Assign(L83); Calibrate(L360),2
+apply,適用する / 当てはまる,動詞,,,×,Assign(L85); Closing Thoughts(L535),2
+potentially,潜在的に / 場合によっては,副詞,,,×,Assign(L90),2
+care,注意 / 配慮,名詞,概念,,×,Assign(L90); Calibrate(L475),2
+people's,人々の,形容詞,,,×,Assign(L91),2
+length,長さ / 期間,名詞,属性,scope,×,Assign(L91); Interview(L231),2
+news,ニュース / 報道,名詞,データ,information,×,Assign(L93); Distribute(L524),2
+emotionally,感情的に,副詞,,,×,Assign(L93); Interview(L235),2
+contextual,文脈的な / 背景に関する,形容詞,,,×,Assign(L100),2
+chart,組織図 / チャート,名詞,ドキュメント,visualization / timeline,×,Assign(L100); Interview(L260),2
+paste,貼り付ける,動詞,,,×,Assign(L100); Analyze(L132),2
+jira,Jira（プロジェクト管理ツール）,固有名詞,システム,ticket / tool,×,Assign(L100); Calibrate(L339),2
+user,ユーザー,名詞,人物,stakeholder / customer,×,Assign(L102); Calibrate(L373),2
+search,検索する,動詞,,data / information,×,Assign(L102); Interview(L294),2
+major,大規模な / 重大な,形容詞,,,×,Assign(L105); Calibrate(L336),2
+circle,輪 / 周回する,動詞,,,×,Analyze(L110); Calibrate(L418),2
+familiar,慣れ親しんだ / 熟知した,形容詞,,,×,Analyze(L112); Interview(L241),2
+aware,認識している / 気づいている,形容詞,,blame-aware,×,Analyze(L112); Calibrate(L435),2
+request,依頼 / リクエスト,名詞,主題,question,×,Analyze(L112); Calibrate(L353),2
+includes,含む（三人称単数）,動詞,,,×,Analyze(L112); Continued Learning(L642),2
+aggregate,集約する / 集計する,動詞,,data / analysis,×,Analyze(L114); Calibrate(L329),2
+alert,アラート / 警告,名詞,データ,signal / detection,○,Analyze(L114); Calibrate(L336),2
+identifying,特定すること,動詞,,finding / analysis,×,Analyze(L118),2
+refine,洗練させる / 改善する,動詞,,process,×,Analyze(L121); Calibrate(L322),2
+deepen,深める,動詞,,knowledge / learning,×,Analyze(L121),2
+workflow,ワークフロー / 作業フロー,名詞,プロセス,process / system,×,Analyze(L126); Distribute(L527),2
+type,タイプ / 種類,名詞,属性,,×,Analyze(L126),2
+immediately,すぐに / 即座に,副詞,,,×,Analyze(L130); Interview(L304),2
+assess,評価する / 査定する,動詞,,analysis,×,Analyze(L130); Interview(L295),2
+nature,性質 / 本質,名詞,属性,context,×,Analyze(L130); Interview(L248),2
+refer,参照する / 言及する,動詞,,document,×,Analyze(L132); Calibrate(L461),2
+detection,検知 / 発見,名詞,プロセス,alert / signal,○,Analyze(L134); Interview(L209),2
+repair,修復 / 復旧,名詞,行動,response / resolution,×,Analyze(L134),2
+raise,提起する / 挙げる,動詞,,issue / concern,×,Analyze(L134); Calibrate(L459),2
+external,外部の,形容詞,,,×,Analyze(L134); Interview(L219),2
+hone,磨く / 向上させる,動詞,,skill / expertise,×,Analyze(L137),2
+explore,探索する / 深掘りする,動詞,,investigation / interview,×,Analyze(L137); Continued Learning(L634),2
+basic,基本的な,形容詞,,,×,Analyze(L140),2
+recreate,再現する,動詞,,timeline / narrative,×,Analyze(L143),2
+challenge,課題 / 難しさ,名詞,主題,problem / issue,×,Analyze(L143); Continued Learning(L611),2
+complexity,複雑さ,名詞,属性,challenge / system,×,Analyze(L143),2
+actively,積極的に,副詞,,,×,Analyze(L143); Continued Learning(L642),2
+compelling,説得力のある / 魅力的な,形容詞,,,×,Analyze(L143); Calibrate(L453),2
+account,説明 / 記述,名詞,ドキュメント,narrative / report,×,Analyze(L143); Calibrate(L495),2
+deeper,より深い / 詳細な,形容詞,,,×,Analyze(L144); Continued Learning(L636),2
+outage,障害 / サービス停止,名詞,イベント,incident / failure,×,Analyze(L153); Continued Learning(L565),2
+narrow,絞り込む,動詞,,scope / analysis,×,Analyze(L153); Interview(L304),2
+prove,証明する,動詞,,hypothesis / evidence,×,Analyze(L154),2
+evidence,証拠 / 根拠,名詞,データ,data / finding,×,Analyze(L154); Interview(L211),2
+difficulty,困難さ / 難しさ,名詞,属性,challenge,×,Analyze(L156); Calibrate(L324),2
+failure,障害 / 失敗,名詞,イベント,incident / outage,×,Analyze(L156); Calibrate(L481),2
+revision,修正 / 改訂,名詞,プロセス,document / report,×,Analyze(L159); Closing Thoughts(L535),2
+resolution,解決 / 復旧,名詞,行動,repair / response,×,Analyze(L160); Interview(L209),2
+visual,視覚的な / ビジュアル,形容詞,,,×,Analyze(L164); Calibrate(L331),2
+representation,表現 / 図表,名詞,ドキュメント,visualization,×,Analyze(L164); Calibrate(L331),2
+reason,理由 / 根拠,名詞,主題,hypothesis,×,Analyze(L175); Interview(L196),2
+matter,重要である / 問題,動詞,,,×,Analyze(L176); Calibrate(L424),2
+sort,種類 / 分類する,名詞,属性,,×,Analyze(L178); Continued Learning(L604),2
+resource,リソース / 資源,名詞,データ,tool,×,Analyze(L183); Continued Learning(L540),2
+feasible,実現可能な,形容詞,,,×,Analyze(L185); Continued Learning(L606),2
+deal,対処する,動詞,,,×,Analyze(L189); Calibrate(L414),2
+monitor,モニタリングする / 監視する,動詞,,alert / signal,×,Analyze(L189),2
+exist,存在する,動詞,,,×,Interview(L196),2
+difference,違い / 差異,名詞,属性,,×,Interview(L198); Calibrate(L479),2
+optimal,最適な,形容詞,,,×,Interview(L203); Calibrate(L463),2
+amount,量 / 程度,名詞,属性,,×,Interview(L205),2
+high-value,高価値の,複合語,,insight / finding,×,Interview(L207),2
+audio,音声の / オーディオ,形容詞,,recording / interview,×,Interview(L207),2
+heavily,大きく / 大幅に,副詞,,,×,Interview(L209); Calibrate(L497),2
+involvement,関与 / 参加,名詞,行動,participant,×,Interview(L211),2
+impacted,影響を受けた,形容詞,,,×,Interview(L213); Calibrate(L441),2
+subject-matter,専門的な / 対象領域の,複合語,,expertise / expert,○,Interview(L214); Calibrate(L440),2
+assumption,前提 / 仮定,名詞,概念,hypothesis,×,Interview(L217),2
+force,強制する / 力,名詞,概念,pressure,×,Interview(L219),2
+stop,止める,動詞,,,×,Interview(L219),2
+sequence,順序 / 順序立てる,動詞,,timeline / event,×,Interview(L221),2
+ratio,比率,名詞,データ,metric,×,Interview(L222),2
+target,対象 / ターゲット,名詞,属性,scope,×,Interview(L222),2
+struggle,苦労する / 苦闘する,動詞,,challenge,×,Interview(L224); Calibrate(L459),2
+minimum,最小限 / 最低限,名詞,属性,,×,Interview(L232); Continued Learning(L579),2
+purpose,目的,名詞,主題,goal / objective,×,Interview(L237); Calibrate(L459),2
+outreach,アウトリーチ / 周知,名詞,プロセス,communication / distribution,×,Interview(L237),2
+calendar,カレンダー / 日程,名詞,ドキュメント,schedule / meeting,×,Interview(L239); Calibrate(L353),2
+offer,提案する / 申し出る,動詞,,,×,Interview(L239); Calibrate(L459),2
+introductory,入門的な / 紹介の,形容詞,,,×,Interview(L241); Continued Learning(L554),2
+preparation,準備 / 下準備,名詞,プロセス,interview / facilitate,×,Interview(L244); Continued Learning(L642),2
+perhaps,おそらく / もしかすると,副詞,,,×,Interview(L246); Calibrate(L473),2
+previous,以前の / 前回の,形容詞,,,×,Interview(L246),2
+following,以下の / 次の,形容詞,,,×,Interview(L248); Continued Learning(L579),2
+pair,ペア,名詞,人物,interview,×,Interview(L250),2
+listen,聴く / 傾聴する,動詞,,interview / participant,×,Interview(L250); Calibrate(L383),2
+video,ビデオ / 録画,名詞,ドキュメント,recording / interview,×,Interview(L251),2
+distract,気を散らす,動詞,,interview,×,Interview(L254); Continued Learning(L634),2
+objective,目的 / 客観的な,名詞,主題,goal / purpose,×,Interview(L256); Calibrate(L408),2
+mind,念頭に置く / 心,名詞,概念,,×,Interview(L257); Calibrate(L469),2
+smoothly,スムーズに / 円滑に,副詞,,,×,Interview(L262); Calibrate(L356),2
+none,なし / 誰も〜ない,代名詞,,,×,Interview(L268); Calibrate(L428),2
+synopsis,要約 / あらすじ,名詞,ドキュメント,summary / report,×,Interview(L270); Distribute(L508),2
+highlight,ハイライト / 強調する,動詞,,finding / theme,×,Interview(L271); Continued Learning(L567),2
+comfortable,快適な / 居心地よい,形容詞,,,×,Interview(L278); Calibrate(L428),2
+natural,自然な / 自然に,形容詞,,,×,Interview(L284),2
+frequently,頻繁に,副詞,,,×,Interview(L296); Continued Learning(L602),2
+shape,形成する / 方向づける,動詞,,,×,Interview(L298); Continued Learning(L649),2
+clarification,明確化 / 確認,名詞,主題,question / interview,×,Interview(L300),2
+counterfactuals,反実仮想 / 「もし〜なら」という推論,名詞,概念,hypothesis / analysis,○,Interview(L301); Calibrate(L406),2
+unclear,不明瞭な / 曖昧な,形容詞,,,×,Interview(L304); Calibrate(L351),2
+input,入力 / インプット / 意見,名詞,データ,feedback / information,×,Calibrate(L311),2
+properly,適切に / 正しく,副詞,,,×,Calibrate(L311),2
+sharing,共有すること,名詞,プロセス,share / distribution,×,Calibrate(L311),2
+mental,精神的な / 思考上の,形容詞,,,×,Calibrate(L313),2
+topic,話題 / トピック,名詞,主題,theme / discussion,×,Calibrate(L316),2
+contain,含む,動詞,,,×,Calibrate(L318),2
+ultimately,最終的には,副詞,,,×,Calibrate(L322),2
+finally,最終的に / 結局,副詞,,,×,Calibrate(L322),2
+five,5つ,その他,,,×,Calibrate(L329),2
+fact,事実,名詞,データ,evidence / finding,×,Calibrate(L332),2
+practitioner,実践者 / 専門家,名詞,人物,expert / facilitator,×,Calibrate(L332); Distribute(L524),2
+page,ページ,名詞,ドキュメント,document,×,Calibrate(L341),2
+sufficient,十分な,形容詞,,,×,Calibrate(L343),2
+maximize,最大化する,動詞,,,×,Calibrate(L356); Continued Learning(L565),2
+documents,文書 / ドキュメント,名詞,ドキュメント,document / report,×,Calibrate(L358); Distribute(L516),2
+unique,独自の / ユニークな,形容詞,,,×,Calibrate(L380); Continued Learning(L609),2
+summary,要約 / まとめ,名詞,ドキュメント,report / synopsis,×,Calibrate(L393),2
+rule,ルール / 規則,名詞,概念,standard / process,×,Calibrate(L404); Distribute(L511),2
+intend,意図する,動詞,,,×,Calibrate(L406); Continued Learning(L634),2
+parking,（議論の）保留 / パーキング,名詞,プロセス,meeting / issue,○,Calibrate(L412),2
+unfamiliar,馴染みのない,形容詞,,,×,Calibrate(L424); Continued Learning(L579),2
+write-ups,調査記録文書 / まとめ文書,複合語,ドキュメント,write-up / report,○,Calibrate(L447),2
+pushback,反発 / 異議,名詞,概念,feedback / concern,×,Calibrate(L450),2
+agree,同意する,動詞,,calibration,×,Calibrate(L459),2
+thank,感謝する,動詞,,,×,Calibrate(L461); Closing Thoughts(L537),2
+reflection,振り返り / 内省,名詞,概念,learning / review,×,Calibrate(L463); Continued Learning(L634),2
+product,プロダクト / 製品,名詞,システム,service,×,Calibrate(L463),2
+today,今日 / 現在,名詞,時間,,×,Calibrate(L466); Continued Learning(L546),2
+ongoing,進行中の,形容詞,,,×,Calibrate(L466); Continued Learning(L540),2
+retro,レトロスペクティブ / 振り返り,名詞,会議,review / meeting / post-incident,○,Calibrate(L468),2
+historical,過去の / 歴史的な,形容詞,,,×,Calibrate(L481); Continued Learning(L585),2
+primarily,主に,副詞,,,×,Calibrate(L488); Distribute(L508),2
+analyst,アナリスト / 分析担当者,名詞,人物,investigator / facilitator,×,Calibrate(L495); Continued Learning(L540),2
+analytics,アナリティクス / 分析,名詞,データ,data / metric,×,Calibrate(L501); Distribute(L513),2
+post,投稿 / 掲載する,名詞,ドキュメント,document,×,Distribute(L508); Continued Learning(L634),2
+weekly,週次の / 毎週,形容詞,,,×,Distribute(L508),2
+occur,発生する,動詞,,event / incident,×,Distribute(L508); Continued Learning(L606),2
+watch,観察する / 監視する,動詞,,monitor / alert,×,Distribute(L513),2
+release,リリースする / 公開する,動詞,,document / report,×,Distribute(L522); Closing Thoughts(L535),2
+title,タイトル / 名称,名詞,属性,document,×,Distribute(L522); Continued Learning(L585),2
+challenger,チャレンジャー（スペースシャトル）,固有名詞,,,×,Distribute(L522),2
+launch,打ち上げ / ローンチ,名詞,イベント,event,×,Distribute(L522),2
+deviance,逸脱 / 規範からの乖離,名詞,概念,,○,Distribute(L522),2
+edit,編集する,動詞,,document,×,Distribute(L522); Continued Learning(L602),2
+realize,認識する / 実現する,動詞,,learning,×,Distribute(L522); Continued Learning(L634),2
+grow,成長する / 拡大する,動詞,,learning / improvement,×,Distribute(L524); Continued Learning(L572),2
+roll,展開する / ロールアウトする,動詞,,,×,Continued Learning(L565),2
+involve,関与する / 含む,動詞,,participant,×,Continued Learning(L569),2
+experienced,経験豊富な,形容詞,,expertise / expert,×,Continued Learning(L608),2
+warrant,正当化する / 必要とする,動詞,,,×,Continued Learning(L609),2
+formula,公式 / 決まった形式,名詞,概念,method / approach,×,Continued Learning(L616),2
+result,結果,名詞,データ,outcome / finding,×,Continued Learning(L634),2
+attendee,出席者 / 参加者,名詞,人物,participant / meeting,×,Continued Learning(L636),2
+technically,技術的に言えば,副詞,,,×,Continued Learning(L642),2
+contact,連絡する / コンタクト,動詞,,participant / communicate,×,Continued Learning(L646),2
+blameless,ブレームレス（非難なしの）,形容詞,,blame / blame-aware / culture,○,Home(L49),1
+tacit,暗黙の / 言語化されていない,形容詞,,knowledge / elicitation,○,Home(L53),1

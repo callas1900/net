@@ -1,0 +1,92 @@
+﻿英語名,日本語訳,品詞,対象分類,関連語,独自辞書,場所,出現数
+action item,アクションアイテム / 改善項目 / 対応事項,名詞句,行動,finding / improvement / remediation,○,Home(L24); Calibrate(L396); Continued Learning(L597),20
+calibration document,キャリブレーション・ドキュメント / 認識合わせ資料,名詞句,ドキュメント,calibration / learning review meeting / facilitator,○,Home(L24); Analyze(L120); Calibrate(L311); Continued Learning(L572),16
+incident analysis,インシデント分析,名詞句,プロセス,analysis / finding / timeline,×,Home(L24); Analyze(L110); Calibrate(L469); Distribute(L520); Closing Thoughts(L531); Continued Learning(L562),16
+review meeting,レビューミーティング,名詞句,会議,learning review meeting / incident review / calibration,×,Home(L24); Analyze(L143); Calibrate(L316),14
+incident review,インシデントレビュー,名詞句,会議,post-incident review / learning review meeting,×,Assign(L85); Analyze(L189); Interview(L198); Calibrate(L316); Distribute(L522); Continued Learning(L560),12
+how we got here,「ここに至った経緯」文書 (HWGH),固定表現,ドキュメント,calibration document / narrative / timeline,○,Home(L8); Calibrate(L341); Continued Learning(L645),9
+initial analysis,初期分析,名詞句,プロセス,analysis / preliminary / finding,×,Home(L51); Assign(L69); Analyze(L112); Interview(L207); Continued Learning(L591),8
+incident data,インシデントデータ,名詞句,データ,data / timeline / source,×,Home(L24); Assign(L99); Analyze(L109); Distribute(L511),6
+incident investigation,インシデント調査,名詞句,プロセス,investigator / investigation / analysis,○,Home(L28); Assign(L91),6
+investigation process,調査プロセス,名詞句,プロセス,investigation / workflow / approach,×,Home(L28); Assign(L65); Continued Learning(L576),6
+point of view,視点 / 観点 / 見方,固定表現,概念,perspective / viewpoint / narrative,×,Analyze(L164); Interview(L284); Calibrate(L332),6
+new information,新たな情報 / 追加情報,名詞句,データ,information / data / finding,×,Analyze(L187); Interview(L205); Calibrate(L495),6
+learning review,学習レビュー,名詞句,会議,learning review meeting / post-incident review,×,Interview(L257); Calibrate(L320); Distribute(L506),6
+on call,オンコール / 待機当番中,固定表現,概念,on-call / incident response / escalation,○,Assign(L100); Analyze(L114); Interview(L211),5
+post-incident review,ポストインシデント・レビュー / 事後レビュー,名詞句,会議,learning review meeting / post-mortem / debrief,○,Assign(L105); Analyze(L126); Distribute(L527); Continued Learning(L572),5
+learning from incident,インシデントからの学習 / 障害から学ぶ,固定表現,概念,learning / insight / post-incident review,○,Home(L10); Continued Learning(L581),4
+incident report,インシデントレポート / 事後報告書,名詞句,ドキュメント,post-incident report / distribute / finding,×,Home(L24); Calibrate(L311); Distribute(L524),4
+postmortem meeting,ポストモーテム・ミーティング / 事後検討会,名詞句,会議,post-mortem / learning review meeting / debrief,○,Continued Learning(L636),4
+resilience engineering,レジリエンスエンジニアリング,名詞句,概念,resilience / safety culture / human performance,○,Home(L15); Continued Learning(L551),3
+performance improvement,パフォーマンス改善,名詞句,概念,improvement / action item / learning,×,Home(L20); Continued Learning(L577),3
+learning review meeting,学習レビュー会議 / ポストインシデント振り返り会議,名詞句,会議,post-incident review / calibration document / facilitator,○,Home(L24); Analyze(L143); Calibrate(L341),3
+facilitated meeting,ファシリテーションされた会議,名詞句,会議,facilitator / learning review meeting,×,Home(L59); Calibrate(L316),3
+key moment,重要な瞬間 / キーモーメント,名詞句,概念,timeline / event / analysis,×,Analyze(L130); Calibrate(L336),3
+initial review,初期レビュー,名詞句,プロセス,review / calibration / analysis,×,Analyze(L167); Calibrate(L324),3
+subject matter expert,業務領域専門家 / SME,名詞句,人物,expert / knowledge / interview,○,Analyze(L176); Calibrate(L424),3
+incident response,インシデント対応,名詞句,プロセス,on-call / escalation / action item,×,Interview(L196),3
+direct message,ダイレクトメッセージ / DM,名詞句,データ,chat transcript / data source / Slack,×,Interview(L196),3
+specific question,具体的な質問,名詞句,会議,interview question / facilitation / probe,×,Interview(L256); Calibrate(L343),3
+multiple perspective,多様な視点 / 複数の観点,名詞句,概念,perspective / viewpoint / diversity,×,Interview(L265); Calibrate(L486),3
+corrective action,是正措置 / 修正アクション,名詞句,行動,action item / improvement / remediation,○,Interview(L272); Calibrate(L414); Distribute(L506),3
+interview note,インタビューメモ / 聴取記録,名詞句,ドキュメント,interview / document / transcript,×,Interview(L304),3
+final report,最終レポート / 最終報告書,名詞句,ドキュメント,report / distribute / finding,×,Calibrate(L316),3
+incident review meeting,インシデントレビューミーティング,名詞句,会議,learning review meeting / post-incident review,×,Calibrate(L316),3
+analysis process,分析プロセス,名詞句,プロセス,analysis / workflow / investigation,×,Calibrate(L322); Continued Learning(L569),3
+action item meeting,アクションアイテムミーティング,名詞句,会議,action item / follow-up / meeting,×,Calibrate(L396); Continued Learning(L597),3
+accident investigation,事故調査,名詞句,プロセス,incident investigation / safety / analysis,○,Continued Learning(L548),3
+dev team,開発チーム,名詞句,組織,team / organization / participant,×,Continued Learning(L565),3
+new approach,新しいアプローチ / 新たな手法,名詞句,概念,approach / method / process,×,Continued Learning(L579),3
+incident phase,インシデントのフェーズ / 障害の段階,名詞句,概念,timeline / event / sequence,×,Continued Learning(L581),3
+investigation program,調査プログラム,名詞句,プロセス,investigation / process / program,×,Home(L8),2
+everyday work,日常業務 / 日々の仕事,名詞句,概念,work / normal operation / safety,×,Home(L15),2
+human performance,人間パフォーマンス / ヒューマンパフォーマンス,名詞句,概念,human factor / resilience / performance,○,Home(L17); Continued Learning(L546),2
+insight generation,インサイト生成 / 洞察の導出,名詞句,プロセス,insight / analysis / learning,○,Home(L20); Continued Learning(L591),2
+error reduction,エラー削減 / ミス低減,名詞句,概念,improvement / prevention / quality,×,Home(L20),2
+incident metric,インシデント指標 / 障害メトリクス,名詞句,データ,metric / data / improvement,×,Home(L22),2
+mean time,平均時間 (障害対応指標: MTTR 等の文脈で使用),名詞句,データ,metric / incident metric / availability,×,Home(L22); Analyze(L160),2
+incident analysis program,インシデント分析プログラム,名詞句,プロセス,investigation program / process / learning,○,Home(L24); Continued Learning(L562),2
+near miss,ニアミス / 危うく事故になりかけた事象,名詞句,イベント,incident / near-miss / high-severity,○,Home(L39),2
+root-cause analysis,根本原因分析 / RCA,名詞句,プロセス,root cause / causal factor / analysis,○,Home(L46); Continued Learning(L565),2
+distribution of finding,発見事項の共有 / 調査結果の配布,名詞句,プロセス,finding / distribute / report,×,Home(L51); Assign(L69),2
+knowledge elicitation,知識引き出し / ナレッジ・エリシテーション,名詞句,プロセス,interview / facilitator / tacit knowledge,○,Home(L53); Assign(L81),2
+initial finding,初期の発見 / 初期所見,名詞句,概念,finding / analysis / preliminary,×,Home(L55); Calibrate(L311),2
+foundational level,基礎レベル / 基本的なレベル,名詞句,概念,level / knowledge / skill,×,Assign(L75),2
+level of knowledge,知識レベル,名詞句,概念,knowledge / expertise / skill,×,Assign(L75),2
+investigation technique,調査テクニック / 調査手法,名詞句,プロセス,investigation / method / approach,×,Assign(L76),2
+data source,データソース / 情報源,名詞句,データ,data / information / evidence,×,Assign(L100); Analyze(L164),2
+contextual information,文脈情報 / コンテキスト情報,名詞句,データ,context / information / background,×,Assign(L100),2
+chat transcript,チャットトランスクリプト / チャット履歴,名詞句,データ,data source / document / timeline,○,Assign(L100); Interview(L244),2
+contributing factor,寄与要因 / 関連要因,名詞句,概念,root cause / causal factor / analysis,×,Analyze(L134); Calibrate(L481),2
+deeper insight,より深い洞察,名詞句,概念,insight / analysis / investigation,×,Analyze(L138); Continued Learning(L569),2
+in hindsight,後から振り返ると / 後知恵では,固定表現,概念,hindsight bias / narrative / review,×,Analyze(L143),2
+deeper analysis,より深い分析,名詞句,プロセス,analysis / investigation / narrative,×,Analyze(L143),2
+visual representation,視覚的な表現 / ビジュアル表示,名詞句,概念,timeline / data / diagram,×,Analyze(L164); Calibrate(L331),2
+individual interview,個別インタビュー,名詞句,会議,interview / interviewee / one-on-one,×,Analyze(L185); Continued Learning(L593),2
+key participant,主要参加者 / キーパーソン,名詞句,人物,participant / investigator / subject matter expert,×,Analyze(L185); Calibrate(L358),2
+incident participant,インシデント参加者,名詞句,人物,participant / responder / on-call,×,Interview(L195); Calibrate(L311),2
+response effort,対応作業 / レスポンス作業,名詞句,プロセス,incident response / escalation / action,×,Interview(L198),2
+relevant new information,関連する新情報,名詞句,データ,information / finding / context,×,Interview(L205),2
+work ticket,作業チケット / ワークチケット,名詞句,データ,ticket / action item / tracking,×,Interview(L215); Calibrate(L459),2
+organizational change,組織変更 / 組織的変化,名詞句,概念,organization / management / improvement,×,Interview(L219); Continued Learning(L577),2
+follow-up question,フォローアップ質問 / 掘り下げ質問,名詞句,会議,interview question / clarification,○,Interview(L250),2
+mental model,メンタルモデル / 思考モデル,名詞句,概念,shared mental model / cognitive / understanding,○,Calibrate(L313),2
+raw data,生データ / ローデータ,名詞句,データ,data / source / evidence,×,Calibrate(L322),2
+key theme,主要テーマ / キーテーマ,名詞句,概念,theme / finding / analysis,×,Calibrate(L322),2
+consolidation of data,データの統合 / データ集約,名詞句,プロセス,data / analysis / synthesis,×,Calibrate(L331),2
+question survey,質問サーベイ / アンケート,名詞句,会議,survey / question / data collection,×,Calibrate(L364),2
+opening remark,開会の挨拶 / 冒頭発言,名詞句,会議,facilitator / meeting / introduction,×,Calibrate(L391),2
+parking lot,パーキングロット（議題保留リスト）,固定表現,会議,action item / meeting / follow-up,○,Calibrate(L412),2
+continuous learning,継続的学習,名詞句,概念,learning culture / organizational learning / improvement,○,Calibrate(L466); Distribute(L527),2
+investigation report,調査レポート / 調査報告書,名詞句,ドキュメント,report / post-incident report / finding,×,Calibrate(L492); Distribute(L516),2
+future reader,将来の読者,名詞句,人物,report / document / audience,×,Calibrate(L499); Distribute(L527),2
+valuable insight,価値ある洞察,名詞句,概念,insight / finding / learning,×,Calibrate(L501); Continued Learning(L611),2
+continued learning,継続的学習,名詞句,概念,learning / improvement / knowledge,×,Continued Learning(L538),2
+new investigation process,新しい調査プロセス,名詞句,プロセス,investigation process / approach / workflow,×,Continued Learning(L576),2
+strong incident analysis,徹底的なインシデント分析,名詞句,プロセス,incident analysis / deep dive / thorough,×,Continued Learning(L587),2
+post-incident meeting,ポストインシデント・ミーティング,名詞句,会議,learning review meeting / facilitator,×,Continued Learning(L595),2
+level of analysis,分析のレベル / 分析の深度,名詞句,概念,analysis / depth / investigation,×,Continued Learning(L609),2
+prescriptive formula,規定的な方法論 / 処方箋的なアプローチ,名詞句,概念,approach / process / methodology,○,Continued Learning(L616),2
+potential action item,潜在的なアクションアイテム,名詞句,行動,action item / finding / improvement,×,Continued Learning(L638),2
+moving forward,今後は / これからは,固定表現,概念,action item / improvement,×,Interview(L304),1
+on the same page,認識が一致している / 共通理解を持つ,固定表現,概念,calibration / shared understanding,×,Calibrate(L430),1
